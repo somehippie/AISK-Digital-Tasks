@@ -19,6 +19,20 @@ The version string in `docs/ai-starter-kit.md`, `README.md` and `CITATION.cff`
 is kept in sync. If you are citing this work, take the version from
 `CITATION.cff`.
 
+**The version tracks the curriculum document, not the repository.** A release
+tag marks the state of `docs/ai-starter-kit.md` at that version. Commits that
+touch only repository scaffolding — contribution guidance, issue templates,
+status files — land after the tag without bumping it, so `main` will routinely
+sit ahead of the newest tag while both correctly claim the same version. `v0.6`
+is the first instance: `eee66e1` added `facilitator/README.md`, a CONTRIBUTING
+section and a README caveat after the tag, and `docs/ai-starter-kit.md` is
+byte-identical between the two.
+
+Do not move a published tag to close that gap. A tag that has been pushed is a
+fixed address, and repointing it breaks anyone who pinned a raw URL to it,
+which the README explicitly invites readers to do. The drift is the convention
+working, not a mistake to correct.
+
 ## Repository history
 
 ### 2026-09-20, published

@@ -11,6 +11,11 @@ Thumbs.db
 /drafts/
 *.local.md
 
-# Audit and review docs — never published from this repo
+# Internal working docs — never published from this repo.
+# These live in develop/AISK/. If one appears here it arrived by mistake.
 *audit*.md
 *review*.md
+*field-evidence*.md
+*post-pilot*.md
+*handoff*.md
+HANDOFF.md
