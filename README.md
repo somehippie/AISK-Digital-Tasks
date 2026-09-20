@@ -1,6 +1,6 @@
 # AI Starter Kit — Digital Tasks
 
-A curriculum for people who hate AI and people who think it's too complicated.
+A curriculum for people who hate AI or think it's too complicated.
 
 This is an eight-session, research-grounded course for AI *skeptics* and AI *beginners* — two different audiences with two different entry ramps that converge by session two. It teaches verification and calibration before productivity, treats literacy as self-defense first and efficiency second, and is built to actively guard against the failure modes it introduces (sycophancy, cognitive debt, substitution of AI for human contact) rather than assume good faith from the tools it teaches.
 
