@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI and people who think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.2 — September 2026.
+Version 0.5 — September 2026.
 
 ---
 
