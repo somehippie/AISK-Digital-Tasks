@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.6.1 | 2026-09-20 | Current. **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
+| 0.6.2 | 2026-09-20 | Current. **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
+| 0.6.1 | 2026-09-20 | **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
 | 0.6 | 2026-09-20 | Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
 | 0.5 | 2026-09-20 | Adds AI impersonation to the Part 5 doom-loop field guide and Session 3; adds standing/custom instructions to Part 6 practical notes; adds "Where this kit sits relative to other programs" cross-checking Google AI Essentials, Elements of AI, and Anthropic's AI Fluency framework. |
 | 0.4 | 2026-09-08 | Content baseline reached through three review rounds. Never published under this label: the version string was not bumped as the content advanced, so this state shipped mislabelled as 0.2 and was corrected to 0.5 retroactively. |
@@ -35,6 +36,43 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Corrections
+
+### 0.6.2 — the honest ledger was not accurate about its own numbers
+
+Found by verifying Part 3 claim-side: working from each number in the body
+outward to the source that carries it, rather than from the citation list
+inward. That direction finds claims standing on nothing, which the source-side
+pass in 0.6.1 structurally could not.
+
+**The 519 mL figure was misattributed and misdescribed.** The document called
+it "a worst-case 2023 lifecycle estimate." It is neither worst-case nor 2023
+nor per-prompt. It comes from a September 2024 *Washington Post* analysis with
+UC Riverside, and it measures full-scope water for a **100-word email** written
+by GPT-4. The 2023 paper people confuse it with is a different number again —
+500 mL per *10 to 50* GPT-3 responses, which is where "a bottle of water per
+prompt" entered circulation, by dropping the denominator.
+
+That matters more here than it would elsewhere. This row exists to correct a
+viral misreading of a statistic. Getting the statistic's own provenance wrong
+while correcting it is the failure the row is about.
+
+**The row contradicted itself two sentences apart.** It claimed full-scope 2026
+estimates "land around 1–5 mL per query," then cited the same paper's author
+putting a GPT-4-class prompt near 15 mL full scope. No source was found for the
+1–5 mL range. It has been replaced with the actual published spread, which is
+0.26 mL to 17 mL depending on who measured, what they counted, and prompt
+length, and a new row saying plainly that the order of magnitude is settled
+while the figure is not.
+
+**The measured/asserted distinction is now explicit.** Google published a
+methodology with its 0.26 mL. OpenAI stated 0.32 mL without publishing one.
+Both were previously presented in the same breath, which a section built on
+credibility should not do.
+
+**A study was credited to the wrong author.** The four-week MIT/OpenAI
+randomized controlled trial is Fang et al. (n=981). Phang et al. is the
+companion platform study. The document cited the RCT as Phang throughout;
+both are now named correctly, with arXiv identifiers.
 
 ### 0.6.1 — two errors found in our own published text
 
