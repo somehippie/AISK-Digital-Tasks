@@ -47,9 +47,25 @@ GitHub redirects permanently from former names, so links and clones using an
 earlier URL continue to work. `CITATION.cff` names the current repository
 directly.
 
-## Known issues
+## Notes
 
-- GitHub's community profile reports `issue_template` as missing and the health
-  score as 85%, although `.github/ISSUE_TEMPLATE/` contains `pilot-feedback.md`,
-  `factual-correction.md` and `config.yml`, and all three serve correctly. Under
-  investigation; may be a detection lag rather than a fault in the templates.
+### Community profile reads 100%, the REST API disagrees
+
+The repository's community profile page shows 100%, with all seven items
+checked including issue templates.
+
+The REST API endpoint `/repos/{owner}/{repo}/community/profile` reports
+`issue_template: null` and a health score of 85% for this repository. That is a
+known defect in the API rather than a gap here: the `files.issue_template` field
+only reports the legacy single-file `.github/ISSUE_TEMPLATE.md`, so any
+repository using the modern `.github/ISSUE_TEMPLATE/` directory reads as null
+even when the community page counts it. It is filed against GitHub's own REST
+API description as a schema inaccuracy.
+
+`.github/ISSUE_TEMPLATE/` holds `pilot-feedback.md` and `factual-correction.md`,
+both with valid `name:` and `about:` front matter, plus `config.yml`. They
+render in the issue chooser normally.
+
+Recorded here because tooling that scores repositories from that API will
+report this one at 85% indefinitely, and the gap is in the measurement, not the
+repository.
