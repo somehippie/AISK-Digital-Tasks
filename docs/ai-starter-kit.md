@@ -1,9 +1,9 @@
 # The AI Starter Kit
 
-**A curriculum for people who hate AI and people who think it's too complicated.**
+**A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.5 — September 2026.
+Version 0.6 — September 2026.
 
 ---
 
@@ -51,6 +51,37 @@ Merging them produces a curriculum that condescends to the first group and overw
 The single most useful sentence for the overwhelmed learner is a research finding, not a reassurance: **in the studies that exist, the people who gain most from these tools are the ones who start with the least expertise.** Being behind is the advantage, not the disqualification.
 
 The single most useful move for the refuser is to hand them the honest version of their own argument, including the parts that are stronger than they knew and the parts that are weaker.
+
+### Different ramps onto the same arc
+
+The ramps differ because the objections genuinely differ, which is the whole point of the table above. What the two audiences share is not a state of mind but a position: both are early on the same long arc, at different points on it, and a facilitator who knows the shape of that arc knows what the next move is rather than only what the current objection is.
+
+What follows is one person's version of a number already on this page. Part 1's EY/AARP finding is that satisfaction runs high among people who have crossed the threshold and the whole problem is the crossing; the arc below is what that looks like from inside a single life. It illustrates that finding. It does not establish anything, and nothing in the curriculum rests on it.
+
+The arc, as the author actually traveled it, with elapsed time rather than calendar dates because the intervals are the part that generalizes:
+
+| Phase | What it looks like | Elapsed |
+|---|---|---|
+| A — Hearing | Aware it exists. Forms opinions from coverage rather than contact. Most refusers are here, and so are most people who say they are "behind" | Year zero |
+| B — Touching | Tries it. It works, roughly. No use case survives the session, so nothing sticks | Five years later |
+| C — Substituting | It replaces something already relied on, usually search. First genuine behavior change, and the first point at which tool choice starts to matter | Two years after that |
+| D — Constructing | Realizes the thing can reorganize their own life, change how their computer works, or build tools that did not exist. Stops being a better search box | About a year on |
+
+Two features of that arc are load-bearing for curriculum design.
+
+**The stall is between B and C, and it is long.** Nine years, in the case above, with the useless middle stretch being the one where the tool had been tried and found merely fine. That is the 84% from the other side: satisfaction was never the blocker. The blocker is that *worked okay* is not a reason to change what you already do, and nothing in the B experience supplies one. An entry ramp that ends at "it works" produces phase B and stops there, which is the honest description of most AI training.
+
+**Phase D is a ceiling most curricula never name, and it has two halves.** The jump is not from novice to power user; it is from asking a thing questions to making it do work on your own material. One half of that is applied to a life: sessions 4 through 7 are exactly this move, which is why the life-design half of the course is not a bolt-on to the literacy half. The other half is applied to a machine — tooling, building, publishing — and this document does not teach it. That gap is deliberate for now and is logged in Part 8.
+
+So the sessions map onto the arc directly. Sessions 1A and 1B meet people at A and B. Session 2 is what makes C possible, since substituting a tool for something you trust requires knowing where it fails first. Sessions 4 through 7 are the C-to-D move on the life side of D, and nothing here covers the other side.
+
+Three honest qualifications, because this is the one passage in the document not drawn from research.
+
+It is a single retrospective case, n=1, reconstructed after the fact by someone who by the end of it was building something most weeks. That is not the median outcome and must not be sold as one. It is offered as a shape to recognize, not an outcome to promise, and a facilitator who presents it as a promise has converted the most useful part of it into the thing Part 3 exists to prevent.
+
+The phases are descriptive, not prescriptive. Plenty of people stop at C permanently and are correctly served by having stopped there. D is not a graduation and the course does not fail if a learner does not reach it.
+
+And the obvious lesson from the arc — that a vivid, inspiring use case is what moves someone forward — needs a hard qualifier or it inverts into the trap in Part 1. An inspiring use case that is **attempted this week** is Session 1B, and it is exactly the accelerant it appears to be. An inspiring use case that is **imagined and admired** is Oettingen's positive fantasy, and it measurably reduces the effort that would have produced it. The arc advances on attempts, never on enthusiasm. That distinction is the difference between the fastest thing in this document and the most harmful.
 
 ---
 
@@ -138,13 +169,21 @@ Three habits, practiced on live output, in ascending order of effort.
 | The source demand | Require citations, then open them. A meaningful percentage will not say what the model claimed. Do this until the learner has personally caught one |
 | The stakes test | Before accepting any output, ask: what happens if this is wrong? Route by answer. Nothing → ship it. Money, health, law, or reputation → verify independently or don't use it |
 
+**The practice target.** The three habits above need something false to run on, and neither Session 2 nor real work can be relied on to supply one on schedule. This can. Ask the model about something the learner knows for certain does not exist: an invented paper, a regulation, a product model number, a person — made up on the spot, in a field the learner knows well enough to judge the answer. *"What were the main findings of Hartley and Vance's 2019 study on commuter cycling in Portland?"*
+
+Be precise about what this is and is not. It calibrates nothing. Session 2 did the calibration, against a domain where the learner outranked the model and did not know in advance where the edge would fall, and that is the exercise the Lee et al. finding requires. Here the learner holds the answer key from the start. That is not a flaw to apologize for, it is the condition that makes practice possible — you cannot rehearse checking on material whose truth you do not already know — but it means this exercise builds the motion and not the judgment. Say so out loud, or a learner will take the easy win for the hard one.
+
+Most of the time the model produces a confident summary of a study that has never existed, occasionally with page numbers and a journal name. Sometimes it refuses, or says it cannot find the work. That is also a result and should be named as one: these tools have measurably improved at this, and a kit that teaches learners to expect universal fabrication is teaching a different falsehood. Run it two or three times with different invented specifics before concluding anything about the model in front of you — one trial is an anecdote, and the point of the session is to stop accepting those.
+
+One thing to say once it lands: the failure mode is confidence, not error. The fabricated answer arrives in exactly the same register as a correct one, with no hedge and no drop in fluency to mark the edge it just crossed. That is why the three habits are procedures rather than instincts.
+
 The same verification muscle applies outside the chat window, and this is where the stakes test does its most important work. AI-generated voices, video, and images now show up in scams as often as in chatbot answers — a call that sounds exactly like a family member in trouble, a video of someone saying something they never said. The tell is procedural, not perceptual: you often cannot hear or see the difference, so the circuit breaker is the same one taught here — verify through a second channel you already trust — never a sharper ear.
 
 Artifact: one instance where they personally caught a fabrication.
 
 This is the only artifact in the kit that depends on the model misbehaving, so it needs a floor. The source demand makes it far more reliable than it sounds — push on obscure specifics, demand citations, then open every one, and a meaningful share will not say what was claimed. But reliable is not guaranteed, and a session that ends in failure to find a failure teaches the wrong lesson.
 
-The fallback, if forty minutes produce nothing: the learner documents **what they checked and what held**, then writes the tell they were hunting for. A verified-clean run is a real result and should be recorded as one. The competency being built is the checking, not the catching. Instructors should also keep two or three pre-verified prompts from their own domain that reliably produce a confident error, held in reserve and used only if the room comes up empty. **[F]** *(Apply — ethics of AI)*
+The fallback, if forty minutes produce nothing: the learner documents **what they checked and what held**, then writes the tell they were hunting for. A verified-clean run is a real result and should be recorded as one. The competency being built is the checking, not the catching. The practice target is the reason this fallback is rarely reached — an invented citation is a near-guaranteed trigger where a real question is not — so a room that comes up empty on real work still has a documented catch to reason about. Instructors should nonetheless keep two or three pre-verified prompts from their own domain in reserve. **[F]** *(Apply — ethics of AI)*
 
 ### Session 4 — Life archaeology (backward, evidence-based)
 
@@ -346,6 +385,8 @@ Four steps carry an **[F]** mark, and they are the ones that would need replacin
 **Where's the delivery surface?** Sessions and a workbook is the default and the default has an 85% failure rate on role-relevance. Alternatives worth pricing: a single laminated card plus one live session; a library or community-center partnership, which is where the EY/AARP report points for the older cohort; or an instrumented version where a purpose-built tool enforces the human-first order rather than trusting learners to self-police it.
 
 **Certification, or deliberately not?** A credential creates a reason to finish. It also converts the curriculum into a compliance exercise, which is the exact register that produced the 85% number.
+
+**Is there a ninth session, and is it a different course?** Part 2's phase D — the point where a learner stops asking questions and starts changing how their own machine works — is named in this document but never taught. Sessions 4 through 7 take the move into life design; nothing takes it into tooling. A phase-D module would need material this kit currently has none of: publishing and version control through a GUI rather than a terminal, since a command line loses the exact audience Part 2 describes; a working rule against generating the same artifact twice in two different tools, which wastes effort and produces two diverging copies of the same file; and a first project small enough to finish. Whether that is a ninth session, a separate kit, or out of scope entirely is unresolved. The argument for separating it is that the audience who reaches D is no longer the audience the first eight sessions were designed for, and a curriculum that quietly changes audience halfway is the failure mode Part 2 opens by naming.
 
 **Does the honest ledger need maintenance?** Every number in Part 3 has a shelf life. Water-per-query figures moved by two orders of magnitude in three years. A kit built on accuracy inherits an accuracy obligation, and that is an ongoing cost that should be budgeted rather than discovered.
 

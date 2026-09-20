@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use or adapt this curriculum, please cite it as below."
-title: "The AI Starter Kit: A curriculum for people who hate AI and people who think it's too complicated"
+title: "The AI Starter Kit: A curriculum for people who hate AI or think it's too complicated"
 type: dataset
 authors:
   - name: "somehippie"
@@ -22,5 +22,5 @@ keywords:
   - adult education
   - media literacy
 license: CC-BY-4.0
-version: "0.5"
+version: "0.6"
 date-released: "2026-09-20"

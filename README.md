@@ -8,9 +8,30 @@ This is an eight-session, research-grounded course for AI *skeptics* and AI *beg
 
 ## What's here
 
-| File | What it is |
+| File | What it is | Plain text |
+| --- | --- | --- |
+| [`docs/ai-starter-kit.md`](docs/ai-starter-kit.md) | The full design document — research rationale, the eight-session lesson plan, a doom-loop field guide, a tool-selection framework, and open design questions | [raw](docs/ai-starter-kit.md?raw=true) |
+| [`CHANGELOG.md`](CHANGELOG.md) | Version history and what changed in each | [raw](CHANGELOG.md?raw=true) |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | What contributions fit the design rationale, and what doesn't | [raw](CONTRIBUTING.md?raw=true) |
+
+## AI & LLM access
+
+If you want to read this with an AI assistant rather than by yourself, paste one of these URLs straight into the chat. They serve plain text with no site layout around it, which is what these tools read best and what a beginner can copy without anything going wrong.
+
+| What | URL to paste |
 | --- | --- |
-| [`docs/ai-starter-kit.md`](docs/ai-starter-kit.md) | The full design document — research rationale, the eight-session lesson plan, a doom-loop field guide, a tool-selection framework, and open design questions |
+| The full curriculum | `https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/docs/ai-starter-kit.md` |
+| Version history | `https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/CHANGELOG.md` |
+
+Those links track the current version. To pin one so it cannot change under you later, swap `main` for a release tag, for example `v0.6`.
+
+A prompt that works, if you want one:
+
+> Read this curriculum and tell me which of the eight sessions is most relevant to someone who <describe yourself here>. Quote the part you're basing that on so I can check it against the source.
+
+Asking for the quote is not decoration. It is the habit the curriculum teaches in Session 3, and this is a reasonable place to start practicing it: open the document yourself and confirm the quoted passage exists and says what the summary claims. A tool that summarizes this document while inventing a passage is demonstrating the exact failure the document is about.
+
+Two caveats worth knowing before you rely on a summary. The curriculum is roughly 45 KB, which fits comfortably in current context windows but is long enough that a tool asked for "the main points" will flatten the reasoning that makes the recommendations make sense. And the statistics carry a short shelf life, flagged in the document itself; an assistant repeating them to you months from now will not know they have moved.
 
 ## Who this is for
 
@@ -34,7 +55,7 @@ This is an eight-session, research-grounded course for AI *skeptics* and AI *beg
 
 ## Status
 
-Version 0.5. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
+Version 0.6. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
 
 ## Contributing
 

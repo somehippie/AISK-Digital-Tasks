@@ -10,3 +10,7 @@ Thumbs.db
 # Local notes not meant for the public repo
 /drafts/
 *.local.md
+
+# Audit and review docs — never published from this repo
+*audit*.md
+*review*.md

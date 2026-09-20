@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.5 | 2026-09-20 | Current. Adds AI impersonation to the Part 5 doom-loop field guide and Session 3; adds standing/custom instructions to Part 6 practical notes; adds "Where this kit sits relative to other programs" cross-checking Google AI Essentials, Elements of AI, and Anthropic's AI Fluency framework. |
+| 0.6 | 2026-09-20 | Current. Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
+| 0.5 | 2026-09-20 | Adds AI impersonation to the Part 5 doom-loop field guide and Session 3; adds standing/custom instructions to Part 6 practical notes; adds "Where this kit sits relative to other programs" cross-checking Google AI Essentials, Elements of AI, and Anthropic's AI Fluency framework. |
 | 0.4 | 2026-09-08 | Content baseline reached through three review rounds. Never published under this label: the version string was not bumped as the content advanced, so this state shipped mislabelled as 0.2 and was corrected to 0.5 retroactively. |
 | 0.1 | 2026-09-08 | First recorded baseline, 292 lines. |
 
@@ -46,6 +47,27 @@ The licence itself did not change. Only the completeness of the text did.
 GitHub redirects permanently from former names, so links and clones using an
 earlier URL continue to work. `CITATION.cff` names the current repository
 directly.
+
+### 2026-09-20, plain-text access for AI assistants
+
+Added an "AI & LLM access" section to `README.md` giving absolute
+`raw.githubusercontent.com` URLs, plus a `?raw=true` column in the file table.
+
+The reason for absolute URLs rather than relative ones: a beginner pasting a
+document into Gemini or Claude needs a complete URL, and a relative path copied
+out of a README is not one. The `?raw=true` column serves readers already
+browsing on GitHub, resolving to the same raw content without leaving the site.
+Existing links stay rendered, because converting the primary link to raw would
+hand every human reader an unrendered 45 KB text dump to serve crawlers that
+fetch the raw file regardless.
+
+An `llms.txt` index was written and then dropped before release. The 2026
+evidence does not support it: adoption sits near 10% of sampled domains, the
+major assistant crawlers do not fetch it in meaningful volume, and a
+citation-prediction model improved when the variable was removed, meaning the
+file contributed noise rather than signal. It also has to be updated whenever
+the docs change or it silently goes stale. Recorded here so the option is not
+re-proposed without new evidence.
 
 ## Notes
 
