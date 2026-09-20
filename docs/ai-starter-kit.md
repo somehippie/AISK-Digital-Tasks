@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.6 — September 2026.
+Version 0.6.1 — September 2026.
 
 ---
 
@@ -17,7 +17,9 @@ The starting idea was: build the person's life story, find where they want to be
 
 **Generic training is the thing that already failed.** In Docebo's 2026 survey of 2,000 employees, 85% said their AI training did not help them understand how to use AI in their specific role. Another tool tour will do nothing. The personalization is not a nice-to-have; it is the entire active ingredient. This is the strongest argument for the life-story premise — but it argues for personalization of *the task*, not necessarily of *the emotional content*.
 
-**Order of operations determines whether the tool builds or erodes skill.** Kosmyna et al. at MIT Media Lab (2025) put 54 participants through four essay-writing sessions on EEG. Brain connectivity scaled down with the amount of external support, and the LLM group showed the weakest coupling, the lowest sense of ownership, and trouble quoting their own writing. The finding that matters for curriculum design is the crossover session: participants who wrote unaided first and then brought in the LLM showed higher memory recall and stronger prefrontal and occipito-parietal activation. Participants who went the other way — LLM first, then unaided — showed reduced alpha and beta connectivity. Same tool, opposite result, decided by sequence. Every exercise in this kit therefore runs human-first.
+**Order of operations determines whether the tool builds or erodes skill.** Kosmyna et al. at MIT Media Lab (2025) ran essay-writing sessions on EEG: 54 participants across the first three sessions, of whom **18** returned for a fourth in which conditions were swapped. Across the main sessions, brain connectivity scaled down with the amount of external support, and the LLM group showed the weakest coupling, the lowest sense of ownership, and trouble quoting their own writing. The result that bears on curriculum design comes from that fourth session: participants who had written unaided first and then brought in the LLM showed higher memory recall and stronger prefrontal and occipito-parietal activation, while those who went the other way showed reduced alpha and beta connectivity.
+
+That last result is eighteen people in one session of one study, and it should be held exactly that loosely. Every exercise in this kit runs human-first anyway, and the reason is not the effect size. **The costs are asymmetric.** A learner who thinks first and brings the tool in second loses a few minutes if the finding fails to replicate. A learner who goes tool-first risks what the study points at if it holds. A cheap precaution against a plausible harm is worth taking at n=18, which an effect-size argument would not be, and the kit should say which of the two is doing the work.
 
 **Confidence in yourself protects you; confidence in the AI does not.** Lee et al. (Microsoft Research and Carnegie Mellon, CHI 2025) surveyed 319 knowledge workers across 936 real AI-assisted tasks. Higher confidence in the AI predicted *less* critical thinking. Higher confidence in one's own ability on the task predicted *more*. This inverts the usual teaching instinct. The goal is not to make the learner trust the tool. It is to make the learner trust themselves enough to argue with it.
 
@@ -46,11 +48,13 @@ Merging them produces a curriculum that condescends to the first group and overw
 | What a bad kit does | Tries to argue them out of it, or opens with benefits. Both read as sales and confirm their prior | Shows them twelve tools. Confirms the complexity fear and produces paralysis |
 | What actually opens the door | Giving their objection accurate ammunition. Most of what they've heard is wrong in *both* directions, and the corrections cut both ways | Removing choice. One tool, one task, one sitting, done today |
 | Entry ramp | Session 1A — Standing | Session 1B — One thing |
-| Load-bearing evidence | De Freitas et al., *Nature Human Behaviour* (2023): resistance drops when users retain control, and explanations that are too simple *reduce* uptake. Don't dumb it down for this group | Brynjolfsson, Li & Raymond (*QJE*): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. Dell'Acqua et al.: below-median BCG consultants gained 43% against 17% for top performers |
+| Load-bearing evidence | De Freitas et al., *Nature Human Behaviour* (2023): resistance drops when users are given a genuine measure of control — with the paper's own bound attached, that the effect plateaus and too much control degrades decision accuracy. So the move is a small control actually exercised, not a large one offered | Brynjolfsson, Li & Raymond (*QJE*, 2025): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. Dell'Acqua et al.: below-average BCG consultants gained 43% against 17% for above-average performers |
 
 The single most useful sentence for the overwhelmed learner is a research finding, not a reassurance: **in the studies that exist, the people who gain most from these tools are the ones who start with the least expertise.** Being behind is the advantage, not the disqualification.
 
 The single most useful move for the refuser is to hand them the honest version of their own argument, including the parts that are stronger than they knew and the parts that are weaker.
+
+**One thing this kit commits to without a result behind it: do not simplify the material for the refuser.** Earlier versions of this document attributed that instruction to De Freitas et al., which was a misreading. Their finding is that an explanation revealing the *AI tool* to be too simple for the task reduces uptake — a claim about underpowered systems, not about pitching an explanation too low. The instruction stays because the reasoning behind it stands on its own: this audience's objection is moral and political rather than technical, simplification reads as handling, and a skeptic who detects that they are being managed has had their prior confirmed. That is a design judgment. It is not a research finding, and it should not be repeated as one.
 
 ### Different ramps onto the same arc
 
@@ -335,7 +339,7 @@ That's the whole starting kit. Everything below is expansion, unlocked by a real
 
 Free tiers do real work now and the meaningful difference between them is where the usage cap sits, not model quality. Reconfirm any specific model, limit, or price before relying on it; that information is stale faster than it can be printed.
 
-Data settings are a day-one configuration task, not an afterthought. Every learner turns off training-on-your-data where the option exists, before their first real task. For the skeptic track, do this *first* — it converts an abstract objection into a control they exercised themselves, which is the De Freitas retained-control mechanism working exactly as described.
+Data settings are a day-one configuration task, not an afterthought. Every learner turns off training-on-your-data where the option exists, before their first real task. For the skeptic track, do this *first* — it converts an abstract objection into a control they exercised themselves, which is the De Freitas control mechanism at the scale their paper actually supports: one small control the learner exercises, not broad discretion handed over.
 
 Standing instructions are the same kind of move, pointed the other direction. Most assistants let a person set their preferences and context once — tone, format, the situation they're usually working from — instead of repeating it every session. Show this alongside the privacy toggle on day one; it's the same low-effort, high-leverage category, and it reinforces "you are learning to describe" from Session 1B by giving that description a permanent home instead of a one-off message.
 

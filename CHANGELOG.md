@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.6 | 2026-09-20 | Current. Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
+| 0.6.1 | 2026-09-20 | Current. **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
+| 0.6 | 2026-09-20 | Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
 | 0.5 | 2026-09-20 | Adds AI impersonation to the Part 5 doom-loop field guide and Session 3; adds standing/custom instructions to Part 6 practical notes; adds "Where this kit sits relative to other programs" cross-checking Google AI Essentials, Elements of AI, and Anthropic's AI Fluency framework. |
 | 0.4 | 2026-09-08 | Content baseline reached through three review rounds. Never published under this label: the version string was not bumped as the content advanced, so this state shipped mislabelled as 0.2 and was corrected to 0.5 retroactively. |
 | 0.1 | 2026-09-08 | First recorded baseline, 292 lines. |
@@ -32,6 +33,57 @@ Do not move a published tag to close that gap. A tag that has been pushed is a
 fixed address, and repointing it breaks anyone who pinned a raw URL to it,
 which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
+
+## Corrections
+
+### 0.6.1 — two errors found in our own published text
+
+Both were found by checking each cited source for the specific figure or claim
+attributed to it, rather than checking that the citation resolved. Neither
+would have surfaced from a link check. Both were live in the tagged `v0.6`
+release under CC BY, which is to say forkable.
+
+**De Freitas et al. was misread, and an instruction rested on the misreading.**
+Part 2 attributed to that paper the finding that "explanations that are too
+simple reduce uptake," and drew from it the facilitator instruction "don't dumb
+it down for this group." The paper says something different: an explanation
+revealing that *the AI tool* is too simple **for the task** reduces uptake. That
+is a claim about underpowered systems, not about pitching an explanation too
+low.
+
+The instruction survives; the sourcing does not. It is now stated explicitly as
+a design judgment with its own reasoning — this audience's objection is moral
+rather than technical, and simplification reads as handling — and labelled as
+not a research finding. The same row also dropped a bound the paper is explicit
+about: the control effect plateaus, and too much control degrades decision
+accuracy. That bound is now stated where the mechanism is used, in Part 2 and
+again in Part 6.
+
+**A crossover finding was reported at n=54 when it rests on n=18.** Part 1
+described Kosmyna et al. as putting "54 participants through four essay-writing
+sessions." Fifty-four completed sessions one to three. Eighteen completed the
+fourth, and the fourth is the crossover session that produced the human-first
+result — the single most load-bearing design decision in the curriculum.
+
+The number is corrected and the confidence language around it is softened. More
+substantially, the stated rationale changed. Human-first no longer rests on the
+effect at all; it rests on an asymmetry that holds regardless of whether the
+finding replicates. A learner who thinks first and brings the tool in second
+loses a few minutes if it fails. A learner who goes tool-first risks what the
+study points at if it holds. A cheap precaution against a plausible harm is
+worth taking at n=18. An effect-size argument would not be.
+
+### Why this is recorded prominently rather than quietly
+
+The second error is scope drop: an observation stated about more of the world
+than it sampled. The curriculum names that failure mode, teaches learners to
+catch it, and then committed it in its own voice about its own central finding.
+
+A document arguing that confident wrongness is the default failure of these
+tools, and that the fix is procedural rather than perceptual, has no standing to
+handle its own errors any differently. The corrections are versioned, tagged and
+described here for the same reason Session 3's artifact requires the learner to
+produce a caught fabrication rather than a summary of the concept.
 
 ## Repository history
 
