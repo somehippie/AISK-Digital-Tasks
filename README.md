@@ -42,7 +42,7 @@ Suggestions, corrections, and pilot-run feedback are welcome — see [CONTRIBUTI
 
 ## License
 
-The written curriculum in this repository is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) — you're free to use, adapt, and redistribute it, including for commercial facilitation, with attribution. See [LICENSE](LICENSE).
+The written curriculum in this repository is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) — you're free to use, adapt, and redistribute it, including for commercial facilitation, with attribution. See [LICENSE](LICENSE). The LICENSE file's text was reproduced from the standard CC BY 4.0 legal code; if exact wording ever matters for a legal purpose, cross-check it against the authoritative version at [creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 ## Code of conduct
 
