@@ -13,6 +13,7 @@ This is an eight-session, research-grounded course for AI *skeptics* and AI *beg
 | [`docs/ai-starter-kit.md`](docs/ai-starter-kit.md) | The full design document — research rationale, the eight-session lesson plan, a doom-loop field guide, a tool-selection framework, and open design questions | [raw](docs/ai-starter-kit.md?raw=true) |
 | [`CHANGELOG.md`](CHANGELOG.md) | Version history and what changed in each | [raw](CHANGELOG.md?raw=true) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | What contributions fit the design rationale, and what doesn't | [raw](CONTRIBUTING.md?raw=true) |
+| [`facilitator/`](facilitator/README.md) | Status of the runnable session material: written, in pilot, published after the first run | [raw](facilitator/README.md?raw=true) |
 
 ## AI & LLM access
 
@@ -36,7 +37,7 @@ Two caveats worth knowing before you rely on a summary. The curriculum is roughl
 ## Who this is for
 
 - **Facilitators** running a group or one-on-one AI-literacy session for adults who are skeptical of, or overwhelmed by, AI tools
-- **Self-learners** who want a structured, evidence-based on-ramp rather than a tool tour
+- **Self-learners** who want a structured, evidence-based on-ramp rather than a tool tour — with one caveat worth reading first: the curriculum is specified as a *facilitated* course, and the solo version is untested. Four steps are marked **[F]** in the document because they depend on a live facilitator, three of them on simply having a witness. Part 8 sets out what is unresolved about removing that, including the possibility that the solo build is a substantially weaker intervention rather than the same one delivered differently. You can absolutely work through this alone. You should know that nobody has yet measured what that costs.
 - Anyone adapting AI-literacy material for a community group, library program, or workplace training who wants something more rigorous than a generic vendor deck
 
 ## Design principles

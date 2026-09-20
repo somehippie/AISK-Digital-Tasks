@@ -14,6 +14,17 @@ For anything beyond a typo or a broken link, **open an issue first** describing:
 
 This avoids a large PR being declined after the fact because it conflicts with the underlying design logic.
 
+## If you don't use a terminal
+
+Most of the people this curriculum is written for do not use a command line, and facilitators correcting a fact in their own material should not have to learn one first.
+
+You do not need a terminal to contribute here. Two routes, neither requiring any software beyond a browser:
+
+- **Edit in the browser.** Open any file on GitHub, click the pencil icon, make your change, and GitHub will create the branch and open the pull request for you. This is the shortest path for a typo, a broken link, or a corrected figure.
+- **[GitHub Desktop](https://desktop.github.com/).** A free graphical app for Mac and Windows that clones, branches, commits and opens pull requests with buttons instead of commands. Use this if you are changing several files at once, or want to read your changes side by side before submitting.
+
+If neither appeals, open an issue describing the change in plain language and someone will make the edit. A correction reported badly is far more useful than a correction not reported.
+
 ## Kinds of contributions especially welcome
 
 - **Pilot feedback.** If you've run any part of this curriculum with a real learner or group, that field evidence is the most valuable kind of contribution this project can receive.
