@@ -44,8 +44,8 @@ The licence itself did not change. Only the completeness of the text did.
 | `AI-Starter-Kit-Digital-Tasks` | `ai-starter-kit-digital-tasks` | Lowercase kebab-case is the prevailing GitHub convention and matches the owner's other repositories. Capitals can require quoting in some shell contexts and collide on case-insensitive filesystems. |
 
 GitHub redirects permanently from former names, so links and clones using an
-earlier URL continue to work. `CITATION.cff` currently names the repository as
-`AISK-Digital-Tasks`, which resolves through that redirect.
+earlier URL continue to work. `CITATION.cff` names the current repository
+directly.
 
 ## Known issues
 
