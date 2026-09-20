@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.6.2 | 2026-09-20 | Current. **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
+| 0.6.3 | 2026-09-20 | Current. Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
+| 0.6.2 | 2026-09-20 | **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
 | 0.6.1 | 2026-09-20 | **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
 | 0.6 | 2026-09-20 | Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
 | 0.5 | 2026-09-20 | Adds AI impersonation to the Part 5 doom-loop field guide and Session 3; adds standing/custom instructions to Part 6 practical notes; adds "Where this kit sits relative to other programs" cross-checking Google AI Essentials, Elements of AI, and Anthropic's AI Fluency framework. |
@@ -36,6 +37,32 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Corrections
+
+### What was actually found, by severity
+
+Seventeen sources have been verified so far, claim by claim, and six defects
+turned up. That is not an error rate, and it should not be read as one — the
+six are four different kinds of thing, with very different consequences for a
+reader.
+
+| Severity | Defect | Consequence if uncaught |
+|---|---|---|
+| **Guidance-changing** | De Freitas misread; "don't dumb it down" presented as a research finding | A facilitator acts on instruction attributed to evidence that does not support it |
+| **Guidance-changing** | 519 mL described as a worst-case 2023 per-prompt estimate | The row correcting a viral misreading transmits its own; a skeptic who checks finds the correction wrong |
+| **Overclaim** | Kosmyna crossover reported at n=54 when it rests on n=18 | The kit's central design decision looks better evidenced than it is |
+| **Internal contradiction** | "1–5 mL per query" against ~15 mL two sentences later, with no source for the first | A reader who reads carefully finds the section arguing with itself |
+| **Misattribution** | MIT/OpenAI RCT credited to Phang rather than Fang | A reader following the citation reaches a real but different paper |
+| **Incomplete citation** | Docebo and Li et al. cited in the body, absent from Source notes | A reader cannot check a claim that is, in both cases, accurate |
+
+The last two rows are bookkeeping. The first two changed what the document tells
+a facilitator to do. A document that has just spent three releases catching
+itself overclaiming should not round all six to the same number, which would be
+its own small overclaim.
+
+Also worth recording: **UNESCO verified clean.** All four dimension names and
+all three progression levels match the framework exactly, so the standards
+alignment the README advertises holds, and so do the tags on all eight sessions.
+That was the highest-stakes item left and it was correct as written.
 
 ### 0.6.2 — the honest ledger was not accurate about its own numbers
 
