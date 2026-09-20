@@ -19,3 +19,7 @@ Thumbs.db
 *post-pilot*.md
 *handoff*.md
 HANDOFF.md
+# Known side effect: these patterns are broad enough to swallow a legitimately
+# publishable file — a learner-facing "audit your own reliance" worksheet, say.
+# If a git add silently does nothing, this block is why. Narrow the pattern
+# then, not pre-emptively.
