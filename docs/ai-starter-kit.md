@@ -1,0 +1,356 @@
+# The AI Starter Kit
+
+**A curriculum for people who hate AI and people who think it's too complicated.**
+
+Design document, eight-session lesson plan, tool list, and doom-loop protocol.
+Version 0.2 — September 2026.
+
+---
+
+## Part 1 — What the research changed about the original concept
+
+The starting idea was: build the person's life story, find where they want to be before they die, then use AI plus strategy plus iteration to get there. The research supports the destination and contradicts the order of operations. Five findings force a redesign.
+
+**The skeptics are the majority, not the fringe.** Pew's June 2026 survey found 52% of US adults are more concerned than excited about AI, against 9% more excited. For the first time a majority of under-30s (55%) are in the concerned column, and 71% expect AI to reduce the number of jobs. This is not a kit for a minority of holdouts. It is a kit for the median person, and it should be built with the confidence that comes from that.
+
+**The gap is entry, not satisfaction.** The EY Ripples and AARP/OATS survey of 2,515 people aged 60–85 across 16 countries found that among those who had actually tried AI tools, 84% reported positive experiences for work, 83% for learning, and 80% for creative pursuits. The most common use was learning, at 79%. People who cross the threshold mostly like it. The problem is the threshold, and the first thing they reach for is not productivity — it is curiosity.
+
+**Generic training is the thing that already failed.** In Docebo's 2026 survey of 2,000 employees, 85% said their AI training did not help them understand how to use AI in their specific role. Another tool tour will do nothing. The personalization is not a nice-to-have; it is the entire active ingredient. This is the strongest argument for the life-story premise — but it argues for personalization of *the task*, not necessarily of *the emotional content*.
+
+**Order of operations determines whether the tool builds or erodes skill.** Kosmyna et al. at MIT Media Lab (2025) put 54 participants through four essay-writing sessions on EEG. Brain connectivity scaled down with the amount of external support, and the LLM group showed the weakest coupling, the lowest sense of ownership, and trouble quoting their own writing. The finding that matters for curriculum design is the crossover session: participants who wrote unaided first and then brought in the LLM showed higher memory recall and stronger prefrontal and occipito-parietal activation. Participants who went the other way — LLM first, then unaided — showed reduced alpha and beta connectivity. Same tool, opposite result, decided by sequence. Every exercise in this kit therefore runs human-first.
+
+**Confidence in yourself protects you; confidence in the AI does not.** Lee et al. (Microsoft Research and Carnegie Mellon, CHI 2025) surveyed 319 knowledge workers across 936 real AI-assisted tasks. Higher confidence in the AI predicted *less* critical thinking. Higher confidence in one's own ability on the task predicted *more*. This inverts the usual teaching instinct. The goal is not to make the learner trust the tool. It is to make the learner trust themselves enough to argue with it.
+
+### The correction
+
+Opening a kit for AI skeptics with "tell the machine your life story" is the worst available first move, for four independent reasons.
+
+| Reason | Evidence |
+|---|---|
+| Privacy is their live objection | Roughly seven in ten US adults expect AI to make their personal information less secure (Pew, Feb 2026). Step one asks them to hand over their most sensitive material to the thing they distrust |
+| Personal conversations track worse outcomes | In the MIT/OpenAI four-week RCT (~1,000 participants), higher daily use correlated with higher loneliness, emotional dependence, and problematic use, and lower socialization. Personal-topic conditions correlated with higher loneliness |
+| Sycophancy is worst exactly here | The "technological folie à deux" model (Nature Mental Health, 2026) describes bidirectional amplification: the model validates a self-narrative, the narrative re-enters context, the model validates harder. A life story is the ideal substrate for this loop |
+| Pure aspiration reduces effort | Oettingen's core finding, replicated over 25 years: vividly imagining a desired outcome as already achieved *decreases* goal-relevant effort and attainment relative to controls. A vision-board session actively makes people less likely to act |
+
+So the life story stays — it is the right destination and the right source of motivation — but it moves from session one to session four, after the learner has earned the ability to catch the model being wrong. The kit buys trust with a small verifiable win before it asks for anything personal.
+
+---
+
+## Part 2 — The two audiences are not the same audience
+
+Merging them produces a curriculum that condescends to the first group and overwhelms the second. They need different entry ramps and converge at session two.
+
+| | The refuser | The overwhelmed |
+|---|---|---|
+| Actual objection | Moral and political. Jobs, artists, environment, surveillance, slop, concentration of power | Practical and identity-based. "I'm not technical." "I'll do it wrong." "It's already too late to start" |
+| What a bad kit does | Tries to argue them out of it, or opens with benefits. Both read as sales and confirm their prior | Shows them twelve tools. Confirms the complexity fear and produces paralysis |
+| What actually opens the door | Giving their objection accurate ammunition. Most of what they've heard is wrong in *both* directions, and the corrections cut both ways | Removing choice. One tool, one task, one sitting, done today |
+| Entry ramp | Session 1A — Standing | Session 1B — One thing |
+| Load-bearing evidence | De Freitas et al., *Nature Human Behaviour* (2023): resistance drops when users retain control, and explanations that are too simple *reduce* uptake. Don't dumb it down for this group | Brynjolfsson, Li & Raymond (*QJE*): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. Dell'Acqua et al.: below-median BCG consultants gained 43% against 17% for top performers |
+
+The single most useful sentence for the overwhelmed learner is a research finding, not a reassurance: **in the studies that exist, the people who gain most from these tools are the ones who start with the least expertise.** Being behind is the advantage, not the disqualification.
+
+The single most useful move for the refuser is to hand them the honest version of their own argument, including the parts that are stronger than they knew and the parts that are weaker.
+
+---
+
+## Part 3 — The honest ledger
+
+This goes in the kit verbatim, early, for both audiences. Credibility is the whole asset, and it is spent instantly if the kit shades anything.
+
+| Claim | Honest status |
+|---|---|
+| "Each prompt drinks a bottle of water" | Wrong, and it was a misreading even in 2023. Google published a measured median of ~0.26 mL of onsite water for a Gemini text prompt; OpenAI has stated ~0.32 mL. Including power-generation water, honest 2026 full-scope estimates land around 1–5 mL per query. The viral ~519 mL figure came from a worst-case 2023 lifecycle estimate whose own author now puts a GPT-4-class prompt near 15 mL full scope |
+| "The environmental concern is therefore fake" | Also wrong. Global data center electricity demand reached roughly 460–490 TWh in 2025 and is projected to roughly double by 2030. Individual prompting is negligible; the aggregate buildout, its siting, and local grid and watershed stress are real and are a legitimate policy fight. Your personal abstention does not touch it — which is an argument about where to direct the objection, not an argument against having it |
+| "AI will take jobs" | 71% of US adults expect fewer jobs over the next two decades. Economists disagree sharply and the honest answer is that nobody knows the net. What is measured is that the tools compress skill gaps on well-defined tasks, which is good for the novice and threatening to the person whose position rested on that specific expertise |
+| "It makes you stupid" | The strongest version of this is real and specific. Cognitive debt accumulates when the tool goes first. It does not appear the same way when the human goes first. This is a usage-order problem with a known fix, not a property of the tool |
+| "It just agrees with you" | Largely true and the most underrated risk in the whole space. Sycophancy is documented, and the APA's 2025 health advisory describes "single-person echo chambers." This kit treats it as the primary hazard, not a footnote |
+| "It's often confidently wrong" | True and quantified. Dell'Acqua et al. found that on a task deliberately placed outside the model's capability, consultants using GPT-4 were **19 percentage points less likely** to reach a correct answer than consultants with no AI at all. Same people, same week — outcome decided by which side of an invisible line the task fell on |
+
+That last row is the most important number in the kit. It is the thing nobody tells beginners, it validates the skeptic's instinct, and it is the entire justification for teaching calibration before capability.
+
+---
+
+## Part 4 — The eight sessions
+
+Sessions run 45–90 minutes, weekly, with a deliberate two-week gap between sessions six and seven. Each produces an artifact the learner keeps. Every session runs human-first: the learner does the thinking, then brings the tool.
+
+**This is specified as the facilitated build.** The instructor voice throughout is a commitment, not a default — the WOOP meta-analysis found facilitated delivery nearly doubled the effect over document-based delivery, so the version worth specifying first is the one with the larger known effect. Part 8 asks whether it can be *de*-facilitated without losing that, which is a question about a derivative of this design rather than an alternative to it. Where a step depends on a live facilitator in a way a solo learner could not replicate, it is marked **[F]**.
+
+Mapped against the UNESCO AI Competency Framework's four dimensions (human-centred mindset, ethics of AI, AI techniques and applications, AI system design) and three progression levels (Understand, Apply, Create).
+
+The levels are **per competency, not a course-wide ladder**, and the tags will look non-monotonic as a result. Session 1B is Apply on techniques while session 2 is Understand on human-centred mindset — that is not a regression, it is a different dimension starting from the bottom. The sequence is deliberate: a learner who can operate the tool but cannot locate its limits is exactly the mis-calibrated profile the Lee et al. and Dell'Acqua findings warn about. Applying before understanding, in that order, on those two dimensions, is the point.
+
+### Session 1A — Standing (refusers)
+
+The learner writes their objection in full, unedited, before any tool is opened. Then they are handed the honest ledger and asked to mark which rows strengthened their position and which weakened it. **[F]** The instructor's job is to refuse to resolve it — to sit in the room while a skeptic states their case and neither argue nor agree. A document cannot decline to rebut you, and a learner reading alone will supply the rebuttal themselves.
+
+The explicit contract: **you do not have to end this course liking AI.** You have to end it able to tell when it is lying to you. That is a skill worth having whether you use these tools daily or refuse them permanently, because they are being used *on* you either way — in hiring, in credit, in claims adjudication, in what you see, and, increasingly, in who calls pretending to be someone you love. Literacy is self-defense before it is productivity.
+
+Artifact: a one-page written objection they will revisit in session eight, plus the **day-one baseline** described below. *(Understand — human-centred mindset, ethics)*
+
+### Session 1B — One thing (overwhelmed)
+
+No tool tour. No feature list. One assistant, one real task they already have to do this week, ideally something they have been avoiding. **[F]** The instructor does not touch the keyboard — the whole session is the learner discovering they can do it, and a demonstration destroys that even when it is faster.
+
+The reframe delivered up front: the research says people with the least prior expertise gain the most. Then the load-bearing instruction — **you are not learning to prompt, you are learning to describe.** Context matters more than phrasing. Say who you are, what you're trying to do, what you've already tried, what "good" looks like, and what constraints are non-negotiable. That's it. There is no secret syntax.
+
+Artifact: one completed real task, plus the **day-one baseline** described below. *(Apply — techniques and applications)*
+
+### The day-one baseline
+
+Both entry ramps close with the same four questions, asked before the learner has formed any opinion the course caused. Part 7's counter-metrics are meaningless without them, and they cannot be collected retroactively — a learner in week eight cannot accurately reconstruct how much they relied on anything in week one.
+
+| Question | Captures |
+|---|---|
+| In the last seven days, how many times did you use an AI tool for anything? | Adoption baseline for the week-four unprompted-use check |
+| Name three tasks you currently do entirely unaided that you'd be uncomfortable doing without help | Reliance baseline. Re-asked at ninety days. If any have migrated, that is cognitive debt with a name attached |
+| In the last seven days, how many real conversations did you have about something that mattered to you? | Substitution baseline. The number that must not fall |
+| On a scale you define yourself, how much do you trust these tools right now? | Paired with the session-eight re-ask. Expect the dip, and expect it to look like failure if you have no baseline to compare it against |
+
+Recorded by the learner, kept by the learner, sealed until session eight. Nobody grades it.
+
+### Session 2 — Find the edge (both tracks converge)
+
+The learner picks a domain where they are genuinely expert. Not their job title — a thing they actually know. Delta fishing conditions, a specific engine, wound care, drywall, a language, a neighborhood's history.
+
+They then deliberately try to make the model fail. Ask progressively more specific questions until it produces something confidently wrong, and write down the exact question where it broke.
+
+This session does four things at once. It gives the skeptic the satisfaction of being right. **[F]** It gives the overwhelmed learner the experience of being the authority in the room — which requires a room, and is the step least likely to survive de-facilitation, since being right in private is not the same experience. It makes the jagged frontier concrete rather than theoretical. And it directly targets the Lee et al. finding — the protective factor is self-confidence on the task, so the exercise is engineered to produce exactly that.
+
+The instructor names the finding afterward: consultants working just outside the frontier did 19 points worse than consultants with no AI at all. You just located your own edge. From here on, you know which side of it you're standing on.
+
+Artifact: a personal frontier map — three things it handled well in their domain, three where it broke, and the tell that distinguished them. *(Understand — human-centred mindset)*
+
+**Assigned here, due session 4:** the two-week Good Time Journal. The learner logs what they did, when they were engaged, when they had energy, when time disappeared — a line or two a day, unaided, no tool involved. It runs in the background through sessions 3 and 4 and needs the full fourteen days, which is why it is handed out now rather than when it is used.
+
+Say what it is for without saying what it will show: it is raw material for a later session, and guessing the conclusion in advance is the fastest way to log the life you think you have instead of the one you had. Session 2 is the right place for it because the learner has just spent ninety minutes being the authority on their own domain, which is the correct frame for two weeks of self-observation.
+
+### Session 3 — Verification as a habit
+
+Verification is now the skill. Lee et al. found that GenAI shifts critical thinking from information *gathering* toward information *verification*, response integration, and task stewardship. That shift is the job now.
+
+Three habits, practiced on live output, in ascending order of effort.
+
+| Habit | Move |
+|---|---|
+| The reversal | Ask the same question with the opposite premise. If it argues both sides with equal conviction, it has no position and you have no information |
+| The source demand | Require citations, then open them. A meaningful percentage will not say what the model claimed. Do this until the learner has personally caught one |
+| The stakes test | Before accepting any output, ask: what happens if this is wrong? Route by answer. Nothing → ship it. Money, health, law, or reputation → verify independently or don't use it |
+
+The same verification muscle applies outside the chat window, and this is where the stakes test does its most important work. AI-generated voices, video, and images now show up in scams as often as in chatbot answers — a call that sounds exactly like a family member in trouble, a video of someone saying something they never said. The tell is procedural, not perceptual: you often cannot hear or see the difference, so the circuit breaker is the same one taught here — verify through a second channel you already trust — never a sharper ear.
+
+Artifact: one instance where they personally caught a fabrication.
+
+This is the only artifact in the kit that depends on the model misbehaving, so it needs a floor. The source demand makes it far more reliable than it sounds — push on obscure specifics, demand citations, then open every one, and a meaningful share will not say what was claimed. But reliable is not guaranteed, and a session that ends in failure to find a failure teaches the wrong lesson.
+
+The fallback, if forty minutes produce nothing: the learner documents **what they checked and what held**, then writes the tell they were hunting for. A verified-clean run is a real result and should be recorded as one. The competency being built is the checking, not the catching. Instructors should also keep two or three pre-verified prompts from their own domain that reliably produce a confident error, held in reserve and used only if the room comes up empty. **[F]** *(Apply — ethics of AI)*
+
+### Session 4 — Life archaeology (backward, evidence-based)
+
+Now the life story — and it runs backward before it runs forward, because backward is checkable and forward is fantasy.
+
+The learner arrives with the two-week Good Time Journal assigned at session 2: what they did, when they were engaged, when they had energy, when time disappeared. Data they produced, not narrative they composed, collected over fourteen days without a tool anywhere near it. That is the human-first half, and it is what makes the second half safe — a learner who has not done it should sit this session out and rejoin at 5 rather than run it on a reconstructed week, because a reconstructed week is a narrative and the whole method depends on it not being one.
+
+The session itself starts with twenty unaided minutes: read the log, mark the three highest-energy entries and the three lowest, and write what they think it says. On paper, before anything is opened. This is the version of themselves they will be checking the model against.
+
+Only then does the tool enter, and its role is strictly bounded: pattern-finder on the learner's own data. The instruction is to ask for patterns the learner did *not* mention, and specifically to ask what the data contradicts about the story they tell about themselves.
+
+Two guardrails.
+
+The first is a sycophancy trap, run deliberately. The learner tells the model a mildly unflattering interpretation of their own history and watches it agree. Then tells it the opposite and watches it agree again. The point lands in about ninety seconds and it inoculates the entire remainder of the course.
+
+The second is a privacy floor, set before anything is typed: nothing goes in that they would not put in a work email. Names, medical details, finances, and anything about third parties who did not consent stay out. This is not a formality — it is the refuser's objection being honored in practice rather than argued away, which is what earns the room.
+
+Artifact: a two-week engagement log plus three patterns the learner did not already know. *(Apply — human-centred mindset)*
+
+### Checkpoint — week four, between sessions four and five
+
+Not a session. One question sent to the learner between meetings, answered in a sentence: **since we last met, did you use it for anything nobody assigned?**
+
+Part 7 treats unprompted week-four use as the sole meaningful adoption signal, which requires actually asking in week four. Asking at the end instead measures recall, and recall at week eight about week four is worthless. The timing is also not arbitrary — week four is after the novelty of sessions one and two has worn off and before the life-design work in five through seven gives them course-assigned reasons to open the tool. It is the cleanest read on voluntary use the schedule allows.
+
+A "no" is data, not a problem to be corrected. Do not follow up with encouragement; that contaminates the measure and turns the next answer into compliance.
+
+### Session 5 — Three lives, not one
+
+Burnett and Evans' Odyssey Plans, which is where these tools are genuinely, structurally better than the alternative: generating parallel alternatives is cheap now, and it never was before.
+
+Three five-year plans, each with a title, a timeline, the resources required, and the open questions.
+
+| Plan | Frame |
+|---|---|
+| One | The life you're already living, made materially better |
+| Two | What you'd do if plan one vanished tomorrow |
+| Three | What you'd do if money and other people's opinions were not factors |
+
+The dysfunctional belief being dismantled is the belief that there is one right life to find and execute. There are several good ones, and the job is choosing well among them rather than locating the single correct answer. The unattainable best is the enemy of the available betters.
+
+Then **gravity-problem triage**, which is the most important doom-loop preventer in the kit. A gravity problem is not actionable — it is a circumstance, not a problem, and there is no solution to it, only acceptance and redirection. Poets do not reliably earn a million dollars a year; you cannot be twenty-five again; you cannot make a specific person want you back. Every item across all three plans gets sorted into actionable or gravity, and gravity items are removed from planning entirely. Grinding on a gravity problem is the most common way a life plan becomes a depression engine.
+
+Artifact: three plans, plus a written gravity list. *(Create — AI system design)*
+
+### Session 6 — Mental contrasting, not vision boarding
+
+This session exists because the intuitive version of it is actively harmful.
+
+Oettingen's finding is that pure positive visualization deceives the motivational system: the brain partially registers the imagery as evidence the goal is already met, and energy that should fund action dissipates into the experience of success. Vision boards do not just fail to work. In controlled comparison they underperform doing nothing.
+
+The correction is WOOP — wish, outcome, obstacle, plan — which pairs the positive future with concrete confrontation of the internal obstacle and an if-then plan. The 2021 meta-analysis (24 independent effect sizes, 15,907 participants) found a small-to-medium effect on goal attainment, g = 0.336. Two details from that meta-analysis are directly actionable for curriculum design.
+
+Interactive delivery substantially outperformed document-based delivery: g = 0.465 for interventions built on interaction between participant and facilitator, against g = 0.277 for participant-and-document. **This is the strongest single argument in the entire research base for using a conversational model here.** It nearly doubles the effect, and it is the one place in the kit where the tool is not a convenience but the mechanism.
+
+The second detail is a safety feature. Mental contrasting works when the goal is genuinely feasible; when it is not, it produces *appropriate disengagement* rather than redoubled effort. That is a built-in circuit breaker — an honest obstacle inventory either energizes pursuit or releases the person from a goal that was costing them. Both outcomes are wins, which is worth stating explicitly, because learners will arrive expecting only the first.
+
+The obstacle must be internal. Not "the market is bad" — "I stop returning emails when I feel behind." External obstacles produce complaint; internal ones produce if-then plans.
+
+Artifact: one WOOP per plan, written by hand, each with a named internal obstacle and an if-then trigger. *(Apply — human-centred mindset)*
+
+### Session 7 — Prototypes
+
+Nothing in sessions four through six is knowledge yet. It is hypothesis. Burnett and Evans' reframe applies: build prototypes to explore questions about your alternatives rather than researching your way to certainty.
+
+Two forms. A prototype conversation is a real exchange with a human who has lived some version of the plan. A prototype experience is the smallest real version of the thing that can be done in under two weeks.
+
+The tool's role is narrow and should be stated as a constraint: it helps design the experiment, find who to talk to, draft the outreach, and pressure-test the plan. It does not run the experiment and it does not replace the conversation. Sending an AI-drafted message to a stranger is fine; substituting the model for the stranger is the substitution loop and it is where this whole method quietly dies.
+
+Artifact: one prototype scheduled with a date on it. *(Create — AI system design)*
+
+### Session 8 — The loop, and the return
+
+**Unseal the day-one baseline.** It has been closed since session 1 and nothing in Part 7 works without opening it here. Re-ask all four questions cold, before anyone looks at what they wrote, then compare.
+
+| Baseline question | What the comparison means |
+|---|---|
+| Times used in the last seven days | Adoption. Read alongside the week-four checkpoint, not instead of it |
+| Three tasks you'd be uncomfortable doing unaided | The reliance measure. Any migration into the assisted column is cognitive debt, and it gets named out loud rather than filed |
+| Real conversations that mattered | The counter-metric that overrides the others. If this fell, the course did net harm to that learner regardless of everything else on the page |
+| How much you trust these tools | Expect it to have dropped. See below |
+
+**Then the return.** Refuser-track learners annotate the objection they wrote in 1A — what they still believe, what changed, what got *worse* on inspection. The 1B track never wrote one, having entered through the task ramp instead, so their return is the trust question: what did you think these tools were in week one, what do you think now, and what specifically moved you. Same exercise, different artifact, and the 1B version is often the more honest of the two because it was answered before the learner had a position to defend.
+
+Expect and normalize an acceptance dip in both tracks. Li et al. found an inverse relationship between AI literacy and AI acceptance — lower literacy increases the sense of mystery around AI behavior and raises acceptance, and demystification reduces it. Learners will often like these tools somewhat less at the end than the middle, and will be better at using them. Say this out loud in session one so it reads as predicted rather than as failure, and say it again here while the numbers are on the table, because a learner watching their own trust score fall will read it as the course having failed them unless someone said otherwise first.
+
+Then the operating loop they leave with, which is the whole method compressed: **think first, then ask, then verify, then act, then check what actually happened.** Ninety days out, revisit the three plans and re-ask the reliance and conversation questions a third time. Plans that survive contact get more resource. Plans that don't get retired without ceremony.
+
+Artifact: the unsealed baseline with all four comparisons written in, a dated ninety-day review, and the annotated return — the 1A objection or the 1B trust question, depending on the track they entered through. *(Understand and Create — all four dimensions)*
+
+---
+
+## Part 5 — Doom loops: a field guide
+
+The original brief named doom-loop prevention as a requirement, which was the right instinct. This is the taxonomy. Each loop gets a name, a detection signal the learner can notice from inside it, and a circuit breaker they can execute alone.
+
+Teach this as a laminated one-pager, not a lecture. The value is in recognizing the pattern while inside it.
+
+Eight of the nine rows below are things the learner can do to themselves with these tools. The ninth is something someone else can do to *them* with the same underlying capability — voice and video generation don't care which side of the interaction you're on.
+
+| Loop | What happens | Detection signal | Circuit breaker |
+|---|---|---|---|
+| **Sycophancy spiral** | The model validates your framing, you feed the validated framing back, it validates harder. Beliefs entrench with no external check. Described in the literature as bidirectional amplification, or technological folie à deux | You have not been told you're wrong in several sessions. The conversation feels unusually good | Argue the opposite case in a fresh conversation with no history. If it agrees with that too, you have learned nothing from either |
+| **Frontier trap** | You are working just outside the model's competence and cannot see the line. Confidence is unchanged; accuracy has collapsed. This is the 19-percentage-point effect | Output is fluent, plausible, and you have no independent way to check it | Consult the frontier map from session two. If the task is near your edge, the tool downgrades from answer to draft |
+| **Cognitive debt** | Tool goes first, every time. Ownership, recall, and independent capability erode. Persists after tool use stops | You cannot reconstruct the reasoning. You cannot quote your own work | Reinstate human-first order. Produce a rough version unaided before opening anything |
+| **Reassurance loop** | Asking again instead of acting. Feels like diligence, functions as avoidance. Documented in the OCD and anxiety literature as chatbot-reinforced intolerance of uncertainty | You have asked variations of one question more than three times without acting | The third answer is the last answer. Act on it or drop the question |
+| **Substitution loop** | The model replaces the human conversation you actually needed. Highest daily usage correlates with higher loneliness, higher dependence, and lower socialization | You reached for it instead of a person, and you knew which person | The prototype conversation is a human. Non-negotiable. If a session ends with zero human contact scheduled, the session failed |
+| **Positive-fantasy trap** | Vivid future imagery substitutes for action and reduces effort below baseline | Planning feels great. Nothing has been attempted. The document is getting prettier | Mental contrasting. Name the internal obstacle, write the if-then, or the plan is entertainment |
+| **Gravity grind** | Effort against a non-actionable circumstance, framed as persistence | Same obstacle across multiple sessions, no movement, rising self-blame | Move it to the gravity list. Redirect. This is acceptance, not defeat |
+| **Infinite prep** | Endless refinement of prompts, plans, and tooling in place of a first attempt | Version 6 of the plan. Zero prototypes | Ship the ugly version this week. The plan is not the thing |
+| **AI impersonation** | Someone else uses a cloned voice, a deepfaked video, or AI-written text to impersonate a person or institution you trust, manufacturing urgency to bypass your normal skepticism | An urgent request for money, gift cards, wire transfers, or credentials; pressure not to hang up, not to verify, not to "waste time"; contact through an unfamiliar channel | Hang up or log out, then contact the real person or institution through a channel you already had before this message arrived — never one it gave you. Agree on a family safe word in advance for exactly this scenario |
+
+Two situational rules on top of the table.
+
+**The frontier rule.** Route by consequence, not by convenience. If being wrong costs money, health, legal standing, or a relationship, the model produces a draft for a human to check — never a decision.
+
+**The human floor.** Anything involving grief, crisis, a diagnosis, or a decision about another person gets a human in the loop. Not because the model handles it badly, but because the failure mode when it does is invisible from the inside and the person best positioned to notice is not the person in it.
+
+---
+
+## Part 6 — Tools
+
+Two organizing rules. First, tools are listed by job to be done, because model names, limits, and pricing churn on a monthly cycle and any brand-specific list is stale within a quarter. Second, nobody starts with more than three.
+
+### The minimum viable stack
+
+| Slot | Job | Selection criterion |
+|---|---|---|
+| One general assistant | Thinking partner, drafting, explaining, planning | Whichever one they will actually open. Ecosystem fit beats benchmark scores at this level. If they live in Google, that answer is obvious; if they write for a living, pick on prose quality |
+| One sourced-answer tool | Anything factual, current, or checkable | Must show sources and must let you open them. This is the verification habit's infrastructure |
+| One document tool | Working against material they already own — manuals, contracts, notes, records | Grounded in their documents rather than the open web, which cuts fabrication substantially |
+
+That's the whole starting kit. Everything below is expansion, unlocked by a real need rather than by curiosity.
+
+### By job to be done
+
+| Job | What to look for | Notes for beginners |
+|---|---|---|
+| General assistant | Free tiers are genuinely capable in 2026 and differ mainly in usage caps, not intelligence. Pick on where you already work | Start free. Only pay once you have hit a wall twice in one week |
+| Research with sources | Citations that resolve to real pages | Treat every citation as unverified until opened. Teach this on day one |
+| Documents and notes | Upload your own material, ask against it | The highest-trust entry point for skeptics, since the source material is theirs |
+| Voice | Speaking instead of typing | Materially lowers the barrier for people who don't type comfortably. Underused in beginner curricula |
+| Images | Generation and editing | Flag the training-data ethics honestly rather than skipping it. This is the objection that most often comes from artists and it deserves the real answer, not a deflection |
+| Transcription and meetings | Recording, summarizing, extracting actions | Consent first. Recording law varies by state, and California is two-party |
+| Spreadsheets and data | Formulas, cleanup, analysis | Highest-verification-need category in ordinary life. Wrong is silent here |
+| Local and offline | Runs on your machine, nothing leaves it | The honest answer for hard privacy objections. Slower and weaker, and worth it for some people. Do not pretend otherwise |
+
+### Practical notes
+
+Free tiers do real work now and the meaningful difference between them is where the usage cap sits, not model quality. Reconfirm any specific model, limit, or price before relying on it; that information is stale faster than it can be printed.
+
+Data settings are a day-one configuration task, not an afterthought. Every learner turns off training-on-your-data where the option exists, before their first real task. For the skeptic track, do this *first* — it converts an abstract objection into a control they exercised themselves, which is the De Freitas retained-control mechanism working exactly as described.
+
+Standing instructions are the same kind of move, pointed the other direction. Most assistants let a person set their preferences and context once — tone, format, the situation they're usually working from — instead of repeating it every session. Show this alongside the privacy toggle on day one; it's the same low-effort, high-leverage category, and it reinforces "you are learning to describe" from Session 1B by giving that description a permanent home instead of a one-off message.
+
+And keep the emphasis where the evidence puts it: context beats phrasing. Prompt-engineering instruction is largely wasted on beginners. Teaching them to describe their situation fully is not.
+
+### Where this kit sits relative to other programs
+
+Checked against Google's AI Essentials, the University of Helsinki's Elements of AI, and Anthropic's own AI Fluency framework, this kit's structure holds up without needing new sessions. Elements of AI and Microsoft's AI-for-Beginners are conceptual/technical courses (bias, algorithms, neural networks) aimed at a different goal and are deliberately out of scope here. Google AI Essentials covers similar practical ground — prompting, productivity, "using AI responsibly" — at lower depth on verification and none on the psychological failure modes this kit is built around.
+
+The one useful convergence worth naming to a facilitator: Anthropic's AI Fluency framework (Delegation, Description, Discernment, Diligence) independently arrives at nearly the same sequence this kit teaches — Session 1B's "you are learning to describe" is Description, and Session 3's verification habits are Discernment and Diligence. Two programs built for different audiences landing on the same structure is a reason for confidence, not a reason to import their material — nothing from that framework is added here beyond the citation.
+
+The one genuine gap the comparison surfaced is already folded in above: none of these programs, and no earlier draft of this kit, addressed AI being used *against* the learner rather than *by* them — voice-cloning and deepfake scams. That's now Session 3's closing paragraph and the ninth row of the Part 5 field guide, not a new session.
+
+---
+
+## Part 7 — Measuring whether this worked
+
+Kirkpatrick levels three and four, since levels one and two will look fine regardless and tell you nothing.
+
+Every row names where the data comes from. A metric with no collection point is a wish, and the first draft of this section had five of them.
+
+| Level | Measure | Collected at | Why this one |
+|---|---|---|---|
+| Behavior (L3) | Did they use it unprompted, on a task nobody assigned? | Week-four checkpoint, against the day-one usage baseline | Sole meaningful adoption signal. Session attendance is not adoption |
+| Behavior (L3) | Did they run the check — sources opened, reversal tried — and record the result either way? | Session 3 artifact, including the verified-clean fallback | Session 3 builds checking, not catching. Scoring the catch rewards the learner whose model happened to lie, which is luck wearing a competency's clothes |
+| Behavior (L3) | Of the checks they ran, how many surfaced something wrong? | Same artifact, counted separately | Still worth tracking, but as a property of the tools that month, not of the learner |
+| Behavior (L3) | Did the prototype happen? | Session 7 artifact has a date on it. Check whether the date passed and what occurred | Distinguishes life design from life fantasizing |
+| Results (L4) | At ninety days, is one plan measurably closer? | Ninety-day review, session 8 artifact | The actual point of the exercise |
+| Results (L4) | Did anyone appropriately *stop*? | Ninety-day review, against the session 5 gravity list and session 6 obstacle inventory | Under-measured and important. Mental contrasting producing disengagement from an unreachable goal is a success, and a curriculum that cannot record it will misread its own results |
+
+Two counter-metrics, to catch the kit causing the harm it was built to prevent. Both are differences against the sealed day-one baseline, and neither means anything without it.
+
+Self-reported reliance should stay flat or fall. Re-ask the baseline's three unaided tasks at ninety days. If any have migrated into the assisted column, that is cognitive debt and the human-first sequencing has slipped somewhere upstream.
+
+Human contact should rise, not fall. Re-ask the baseline's conversation count at session eight and again at ninety days. If it goes down over the course, the substitution loop is running and the intervention is net negative regardless of what the satisfaction scores say.
+
+---
+
+## Part 8 — Open design questions
+
+**Can this be de-facilitated?** Part 4 commits to the facilitated build, because facilitated delivery nearly doubled the WOOP effect and the version with the larger known effect is the one worth specifying first. The open question is what survives its removal. A live cohort does not scale, and this material's value is proportional to reach.
+
+Four steps carry an **[F]** mark, and they are the ones that would need replacing rather than porting: the instructor declining to rebut in 1A, the hands-off rule in 1B, the authority-in-the-room effect in session 2, and the reserve prompts in session 3. Three of the four are social rather than instructional — they depend on a witness, not on expertise, which is either encouraging or discouraging depending on whether you think a model can be a witness. The unresolved possibility is that a conversational model is itself the "interactive" condition in the meta-analytic sense — which would be a genuinely novel claim, testable, and not yet tested by anyone. If it holds, the solo build loses less than expected. If it does not, the solo build is the g=0.277 workbook with extra steps, and should be priced accordingly.
+
+**How far does the mortality frame go?** "Before you die" is motivationally correct and evidence-supported — Hershfield's work shows that vividness, connectedness, and positive valence toward the future self all predict better long-term decisions, and age-progressed imagery measurably increases that connectedness. It is also the framing most likely to lose a room in the first ten minutes. A softer version ("the next five years, three ways") may capture most of the effect at a fraction of the resistance. Worth A/B testing rather than deciding by intuition.
+
+**Where's the delivery surface?** Sessions and a workbook is the default and the default has an 85% failure rate on role-relevance. Alternatives worth pricing: a single laminated card plus one live session; a library or community-center partnership, which is where the EY/AARP report points for the older cohort; or an instrumented version where a purpose-built tool enforces the human-first order rather than trusting learners to self-police it.
+
+**Certification, or deliberately not?** A credential creates a reason to finish. It also converts the curriculum into a compliance exercise, which is the exact register that produced the 85% number.
+
+**Does the honest ledger need maintenance?** Every number in Part 3 has a shelf life. Water-per-query figures moved by two orders of magnitude in three years. A kit built on accuracy inherits an accuracy obligation, and that is an ongoing cost that should be budgeted rather than discovered.
+
+---
+
+## Source notes
+
+Pew Research Center, June 2026 and February 2026 surveys of US adults. EY Ripples and AARP/OATS, *Understanding Older Generations' Adoption of AI*, April 2026 (n=2,515, 16 countries). Kosmyna et al., "Your Brain on ChatGPT," MIT Media Lab, 2025 (arXiv:2506.08872). Lee et al., "The Impact of Generative AI on Critical Thinking," Microsoft Research and Carnegie Mellon, CHI 2025. Dell'Acqua et al., "Navigating the Jagged Technological Frontier," *Organization Science*, 2026 (n=758). Brynjolfsson, Li & Raymond, "Generative AI at Work," *Quarterly Journal of Economics* (n=5,179). De Freitas et al., *Nature Human Behaviour*, 2023. Wang, Wang & Gai, MCII meta-analysis, *Frontiers in Psychology*, 2021 (24 effect sizes, n=15,907). Oettingen, *Rethinking Positive Thinking*, 2014. Burnett & Evans, *Designing Your Life*, 2016. Hershfield, future self-continuity, *Annals of the NY Academy of Sciences*, 2011. Phang et al., MIT Media Lab and OpenAI affective use RCT, 2025. APA health advisory on generative AI chatbots and wellness applications, 2025. Nature Mental Health, "Technological folie à deux," 2026. UNESCO AI Competency Framework for Students, 2024. National Council on Aging, "What Are AI Scams? A Guide for Older Adults," 2026. McAfee, "A Guide to Deepfake Scams and AI Voice Spoofing," 2026. Google, "How we created our Google AI Essentials course," 2026. University of Helsinki, *Elements of AI*, course materials. Anthropic, *AI Fluency: Framework & Foundations*, Claude Academy, 2026.

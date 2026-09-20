@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or adapt this curriculum, please cite it as below."
+title: "The AI Starter Kit: A curriculum for people who hate AI and people who think it's too complicated"
+type: dataset
+authors:
+  - name: "somehippie"
+repository-code: "https://github.com/somehippie/AI-Starter-Kit-Digital-Tasks"
+url: "https://github.com/somehippie/AI-Starter-Kit-Digital-Tasks"
+abstract: >-
+  An eight-session, research-grounded AI-literacy curriculum for two
+  audiences — AI skeptics and AI beginners — with distinct entry ramps
+  that converge by session two. Prioritizes verification and calibration
+  before productivity, and includes a "doom loop" field guide covering
+  failure modes such as sycophancy, cognitive debt, and AI-enabled
+  impersonation scams.
+keywords:
+  - artificial intelligence
+  - AI literacy
+  - digital literacy
+  - curriculum
+  - education
+  - adult education
+  - media literacy
+license: CC-BY-4.0
+version: "0.2"
+date-released: "2026-09-20"
