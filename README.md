@@ -19,17 +19,29 @@ This is an eight-session, research-grounded course for AI *skeptics*, AI *beginn
 
 You can work through this curriculum with an AI assistant. **The method matters more than the tool**, because the two obvious approaches give very different results.
 
-### Option A — copy the text in (recommended)
+### Option A — give the assistant the file (recommended)
 
-Open the raw file, select all, copy, paste into the chat:
+Two ways, in order of reliability.
+
+**Attach it.** Download the curriculum, then attach the file to the chat:
 
 ```
 https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/docs/ai-starter-kit.md
 ```
 
-`Ctrl+A` then `Ctrl+C` on Windows, `Cmd+A` then `Cmd+C` on a Mac. That page is plain text with no site layout around it, so what you paste is the document and nothing else.
+Right-click → *Save as* on that page, or use your browser's save shortcut. Every major assistant accepts a `.md` attachment, and an attachment either arrives whole or visibly fails.
 
-This puts the whole curriculum — about 79 KB, comfortably inside current context windows — into the model's working memory in one go. Nothing is fetched, summarized or truncated on the way in, which is what makes the difference: the assistant is reading the document rather than a description of it.
+**Or paste it,** if your tool takes no attachments. Open the same page, select all and copy — `Ctrl+A` `Ctrl+C`, or `Cmd+A` `Cmd+C` on a Mac — then paste into the chat. It is plain text with no site layout around it, so what you paste is the document and nothing else.
+
+Paste is the fallback rather than the first move for one reason: this is a long document, and several chat interfaces silently truncate very large pastes, or convert them to an attachment, without saying so. That produces the exact failure this section exists to warn about, arriving through the route it recommends.
+
+**So check that it landed, whichever route you used.** Ask:
+
+> Before we start — what is the final section of this document called, and what is the last entry in it?
+
+Then scroll to the bottom of the file yourself and see whether that is what it says. If the assistant cannot tell you, or tells you something that is not there, it does not have the whole document and nothing it says next is worth much.
+
+Deliberately, the answer is not printed here. Checking it against the source rather than against this page takes five seconds, is the move Session 3 teaches, and works on any version of the document — including the ones written after this sentence.
 
 ### Option B — import the repository
 

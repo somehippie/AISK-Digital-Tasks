@@ -513,9 +513,26 @@ the note that summaries drop the design rationale and session boundaries first
 — the parts that tell a facilitator what they can safely change.
 
 Also corrected: the curriculum was described as "roughly 45 KB," accurate when
-written and stale by 34 KB after v0.6 through v0.9.2. The figure is now
-expressed in a form that does not need maintaining. `llms.txt` was not
-reinstated; the v0.7 evidence for dropping it stands.
+written and stale by 34 KB after v0.6 through v0.9.2. The first replacement
+swapped it for "about 79 KB," which is the same defect with a fresher number —
+and worse, because it was the premise of the claim that the document fits in a
+context window. Both are gone. The claim survives as "a long document," which
+needs no maintenance.
+
+The attachment route is now recommended ahead of copy-paste. A paste this size
+is silently truncated or silently converted by several chat interfaces, which
+produces the failure this section warns about *through the route it
+recommends*, and a reader has no way to notice. An attachment either arrives
+whole or visibly fails.
+
+A verification step was added for either route: ask the assistant to name the
+final section and its last entry, then check the file yourself. The answer is
+deliberately not printed in this README — checking against the source rather
+than against a page that can go stale is the move Session 3 teaches, and it
+works on versions of the document written after the instruction. The first
+draft of that step did hardcode the answer, and got it wrong.
+
+`llms.txt` was not reinstated; the v0.7 evidence for dropping it stands.
 
 
 
