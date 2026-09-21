@@ -102,7 +102,7 @@ Two caveats before you rely on a summary. The curriculum is long enough that a t
 
 ## Status
 
-Version 0.9.2. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
+Version 0.10. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
 
 ## Contributing
 

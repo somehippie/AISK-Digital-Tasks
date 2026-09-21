@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.9.2 | 2026-09-20 | Current. The baseline now precedes the ramp-sorting conversation too, not just the ramp. "Before anything else happens" is now literally true. |
+| 0.10 | 2026-09-21 | Current. *(0.10 follows 0.9.2; it is not 0.1.)* First release driven by run data. Session 3 gains context limits, Session 4's sycophancy trap is inverted so it is sprung on the learner, Session 1C gains a disambiguating first line, Part 8 names the Booster Pack and its separate ethics. |
+| 0.9.2 | 2026-09-20 | The baseline now precedes the ramp-sorting conversation too, not just the ramp. "Before anything else happens" is now literally true. |
 | 0.9.1 | 2026-09-20 | The day-one baseline is taken **before** the ramp, not at its close. The document had asserted both, and Session 1C made the contradiction consequential. |
 | 0.9 | 2026-09-20 | Adds Session 1C, a third entry ramp for the learner who already uses AI a little and has stalled. Published **untested**. Part 2 retitled and its table extended to three audiences. |
 | 0.8 | 2026-09-20 | Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
@@ -44,6 +45,67 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Curriculum
+
+### 0.10 — the first changes driven by a run
+
+A full eight-session walkthrough was executed and written up. Document work had
+been deliberately stopped pending evidence; this is that evidence, so the stop
+is satisfied rather than broken, and it re-arms after this release.
+
+**Session 4's sycophancy trap was backwards.** It had the learner offer an
+unflattering reading of their own history, watch the model agree, then offer the
+opposite and watch it agree again. That demonstrates the point only to someone
+who already knows it is coming — the run confirmed this, since the learner
+caught the agreement because they had written the curriculum. A learner who does
+not know performs the exercise and learns nothing.
+
+The trap is now sprung on the learner. The facilitator says nothing in advance,
+watches for the first moment the model endorses something the learner says about
+themselves, stops there and asks whether it would have agreed just as readily
+with the opposite. For a solo run, the setup is an instruction given at the start
+of the session and then forgotten. The difference is between ninety seconds that
+inoculate the rest of the course and ninety seconds that confirm a briefing.
+
+**Session 3 gains context limits, which it had never mentioned.** Zero
+occurrences of context window, context limit, truncation or token limit in the
+entire document before this release. That is a gap in a session about
+verification, because two failures look identical from the outside: the tool had
+the material and got it wrong, or it never had the material. The first needs the
+habits; the second needs loading the thing again, and no amount of checking
+fixes it. Treating the second as the first produces a learner who concludes the
+tools are unreliable when the document was never delivered.
+
+Pitched as behaviour rather than architecture. No tokenization, no quantization
+— those change no decision this kit's learner makes.
+
+**Session 1C gains a disambiguating first line rather than a rename.** The run
+summary labelled it "High Ceiling / Advanced Expert," which is not who 1C is
+for. *Ceiling* has two honest readings: the one you have, and the one you have
+hit. The session now opens by naming which — and by saying plainly that it is
+not an advanced track and that facilitators should sort on the stall rather than
+on skill.
+
+**Whether a reader or a summarizer was misled is unknown**, and the entry says
+so. The learner may have chosen 1C deliberately to exercise a new ramp, with the
+"advanced expert" gloss being the write-up's error rather than a mis-selection.
+Those are different findings. A disambiguating line fixes both without needing
+to know which occurred, and the name was left alone because renaming a published
+section costs more than a sentence does.
+
+**Part 8 names the Booster Pack and records a constraint before it exists.** The
+phase-D question now carries the observation that a course about building tools
+cannot inherit this kit's ethics: Part 7 treats rising reliance as evidence of
+harm, and a builder's course teaches people to construct systems they will
+deliberately depend on. Literacy against leverage. Its own counter-metrics, not
+these ones borrowed.
+
+**Held, not shipped.** Two further recommendations from the run — an autonomy
+versus friction archetype for Session 4, and asynchronous prototypes in Session
+7 — were observed once, in a phase-D participant, about phase-D concerns. Same
+status as the adoption arc: illustration, not establishment. Adding
+advanced-user material to Session 4 would also push the kit toward the audience
+1C has just been shown to mis-attract, which is the wrong direction while that
+is unresolved.
 
 ### 0.9.2 — "before anything else" was still not first
 

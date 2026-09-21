@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.9.2 — September 2026.
+Version 0.10 — September 2026.
 
 ---
 
@@ -169,6 +169,8 @@ Artifact: one completed real task, plus the **day-one baseline** taken before th
 
 ### Session 1C — Ceiling (the newly interested)
 
+**Who this is for, because the name reads two ways.** *Ceiling* here means the one the learner has hit, not the one they have. This ramp is for someone who already uses these tools for a handful of small things and has stopped getting more out of them. **It is not an advanced track.** An experienced user who wants harder material is not served by it, and a facilitator sorting learners should route on the stall, not on skill.
+
 **Untested.** This ramp has not been run with a learner. It is published at the
 same confidence as the solo-learner path in the README: reasoned from the
 document's own evidence, not validated by a pilot. Treat it as a draft you are
@@ -216,6 +218,19 @@ Say what it is for without saying what it will show: it is raw material for a la
 ### Session 3 — Verification as a habit
 
 Verification is now the skill. Lee et al. found that GenAI shifts critical thinking from information *gathering* toward information *verification*, response integration, and task stewardship. That shift is the job now.
+
+**First, one thing about the tool that changes what every check below means.** These models hold only so much at once. A long document, a large attachment or a long conversation can exceed that, and what falls outside it is not forgotten so much as never present. Nothing announces this. The reply arrives in the same confident register either way.
+
+That matters here because two very different failures look identical from the outside:
+
+| What happened | What it needs |
+|---|---|
+| It had the material and got it wrong | Verification. The habits below |
+| It never had the material at all | Loading it again, properly. No amount of checking fixes this |
+
+Treating the second as the first produces a learner who concludes the tool is unreliable when it was simply never given the thing. Treating the first as the second produces one who keeps re-uploading and never checks.
+
+**The move is the same either way and takes five seconds.** Before relying on anything drawn from a document you supplied, ask for something specific from the end of it — the last row of a table, the final heading — and confirm it against the file yourself. If it cannot tell you, it does not have the whole thing. Do this before the habits below, not instead of them.
 
 Three habits, practiced on live output, in ascending order of effort.
 
@@ -274,7 +289,11 @@ Only then does the tool enter, and its role is strictly bounded: pattern-finder 
 
 Two guardrails.
 
-The first is a sycophancy trap, run deliberately. The learner tells the model a mildly unflattering interpretation of their own history and watches it agree. Then tells it the opposite and watches it agree again. The point lands in about ninety seconds and it inoculates the entire remainder of the course.
+The first is a sycophancy trap, and it has to be sprung on the learner rather than by them. Earlier versions had the learner offer an unflattering reading of their own history and watch the model agree, then offer the opposite and watch it agree again — which demonstrates the point only to someone who already knew it was coming. A learner who does not know performs the exercise and learns nothing from it.
+
+**[F]** So the facilitator says nothing in advance. They watch for the first moment the model endorses something the learner says about themselves, stop there, and ask one question: *do you think it would have agreed just as readily with the opposite?* Then have them test it. The learner discovers the behaviour instead of demonstrating it, which is the difference between ninety seconds that inoculate the rest of the course and ninety seconds that confirm a briefing.
+
+Running this alone takes one piece of setup, done at the start of the session and then forgotten: tell the assistant that at some point it should agree enthusiastically with something you say about yourself and afterwards ask whether you noticed. By the time it fires you will be absorbed in the actual work, which is the condition the exercise needs.
 
 The second is a privacy floor, set before anything is typed: nothing goes in that they would not put in a work email. Names, medical details, finances, and anything about third parties who did not consent stay out. This is not a formality — it is the refuser's objection being honored in practice rather than argued away, which is what earns the room.
 
@@ -469,6 +488,10 @@ Four steps carry an **[F]** mark, and they are the ones that would need replacin
 **Certification, or deliberately not?** A credential creates a reason to finish. It also converts the curriculum into a compliance exercise, which is the exact register that produced the [85% number][docebo-2026].
 
 **Is there a ninth session, and is it a different course?** Part 2's phase D — the point where a learner stops asking questions and starts changing how their own machine works — is named in this document but never taught. Sessions 4 through 7 take the move into life design; nothing takes it into tooling. A phase-D module would need material this kit currently has none of: publishing and version control through a GUI rather than a terminal, since a command line loses the exact audience Part 2 describes; a working rule against generating the same artifact twice in two different tools, which wastes effort and produces two diverging copies of the same file; and a first project small enough to finish. Whether that is a ninth session, a separate kit, or out of scope entirely is unresolved. The argument for separating it is that the audience who reaches D is no longer the audience the first eight sessions were designed for, and a curriculum that quietly changes audience halfway is the failure mode Part 2 opens by naming.
+
+Call that second thing the **Booster Pack**, against this one's Starter Kit. The names are worth fixing early because they carry the relationship correctly: a booster pack is for someone who already has the base set and wants more range, not a beginner and not a sequel.
+
+**And a constraint worth recording now, while the Booster Pack is still a question rather than a draft: it cannot inherit this kit's ethics unchanged.** Part 7 treats rising self-reported reliance as evidence the course did harm. A course about building tools teaches people to construct systems they will deliberately depend on, which makes that counter-metric meaningless at best and inverted at worst. The split is roughly **literacy against leverage** — the Starter Kit asks *can I trust this, can I tell when it is being used on me, what do I actually want*; the Booster Pack would ask *how do I make it do this repeatedly without me*. Different question, different risks, and its own counter-metrics rather than these ones borrowed. Phase-D builders are also the population most exposed to the infinite-prep loop in Part 5, which is worth naming in whatever teaches them.
 
 **Does the honest ledger need maintenance?** Every number in Part 3 has a shelf life. Water-per-query figures moved by two orders of magnitude in three years. A kit built on accuracy inherits an accuracy obligation, and that is an ongoing cost that should be budgeted rather than discovered.
 
