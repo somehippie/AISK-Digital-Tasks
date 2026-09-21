@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.7.1 | 2026-09-20 | Current. Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
+| 0.8 | 2026-09-20 | Current. Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
+| 0.7.1 | 2026-09-20 | Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
 | 0.7 | 2026-09-20 | Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
 | 0.6.4 | 2026-09-20 | Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
 | 0.6.3 | 2026-09-20 | Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
@@ -38,6 +39,74 @@ Do not move a published tag to close that gap. A tag that has been pushed is a
 fixed address, and repointing it breaks anyone who pinned a raw URL to it,
 which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
+
+## Curriculum
+
+### 0.8 — the fourth verification habit
+
+**The support test.** The first three habits all confirm that a claim *has*
+support: the reversal tests whether a position exists, the source demand tests
+whether a citation is real, the stakes test routes by consequence. None asks
+whether the support *reaches* the claim. A real paper, correctly attributed, in
+the right field, supporting something adjacent passes all three. The fourth
+habit asks the missing question in two directions — extent, and attachment.
+
+**Its evidence type is stated on the page, not only here.** The first three
+habits cite Lee et al. The fourth cites eight documented instances of claims
+failing in ways those three passed, six of them in earlier published versions
+of this curriculum. That is real evidence and a different kind of evidence, and
+a session about telling those apart is the wrong place to blur the distinction.
+Presenting four habits at identical authority would have let the new one borrow
+credibility from its neighbours in a table — which is one of the failure modes
+it exists to catch.
+
+**A boundary is stated with it.** The support test does not cover Session 2's
+territory. When a model works past its competence the answer is wrong at the
+root, the sources may be impeccable, and checking whether support reaches the
+claim does not help. That failure is invisible to any question asked of the
+model about itself, which is why Session 2 uses the learner's own expertise
+instead.
+
+**"Push on obscure specifics" is now a map.** The old instruction was too vague
+to act on. It is replaced by five named high-interpolation targets — citations,
+model and part numbers, version-specific menu paths, official procedures, and
+formatted figures — chosen because the *shape* of a correct answer is learnable
+in each while the specific instance may not exist. Also drawn from observed
+errors rather than a study, and labelled as such.
+
+**Refusal is named as the session's only positive signal.** When the practice
+target produces "I cannot find that," the session now stops and says so.
+Everything else in Session 3 teaches catching a tool being wrong, and a course
+that only points at failure produces a learner who distrusts everything
+equally, which is not calibration.
+
+**Part 5 gains a matching row**, distinct from the frontier trap: support that
+does not reach, with detection signals for both directions.
+
+### The clock, priced rather than discovered
+
+Session 3 was already the fullest session in the kit, and three additions to
+the densest session is how a 90-minute plan quietly becomes 110 minutes in a
+room.
+
+The open hunt on the learner's own work was budgeted at forty minutes, and that
+number was set when catching a fabrication depended on luck — the block ran
+long because it was the only route to the artifact. The practice target,
+added in v0.6.1, changed its job and nobody re-priced it. The artifact is now
+reliably in hand before the hunt begins, so the hunt is no longer hunting; it
+is applying four habits to work the learner cares about, which is worth about
+twenty focused minutes.
+
+That re-pricing is what makes room, rather than the session running over. The
+document now says which cut to make if it overruns anyway: the open hunt, not
+the support test, because the habits are the session and the hunt is the
+rehearsal.
+
+**Session 2 was considered and rejected as a home for the refusal material.**
+Its own text describes the learner having "just spent ninety minutes" on the
+frontier exercise, so it is already at the top of the band. The material went
+into Session 3's practice-target debrief instead, where the hook already
+existed and the cost is close to zero.
 
 ## Sources
 

@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.7.1 — September 2026.
+Version 0.8 — September 2026.
 
 ---
 
@@ -173,12 +173,19 @@ Three habits, practiced on live output, in ascending order of effort.
 | The reversal | Ask the same question with the opposite premise. If it argues both sides with equal conviction, it has no position and you have no information |
 | The source demand | Require citations, then open them. A meaningful percentage will not say what the model claimed. Do this until the learner has personally caught one |
 | The stakes test | Before accepting any output, ask: what happens if this is wrong? Route by answer. Nothing → ship it. Money, health, law, or reputation → verify independently or don't use it |
+| The support test | The check above passed. Now ask whether the support actually *reaches* the claim. *Extent:* does what it looked at cover everything it concluded? *Attachment:* does this source make this claim, or one standing next to it? |
 
-**The practice target.** The three habits above need something false to run on, and neither Session 2 nor real work can be relied on to supply one on schedule. This can. Ask the model about something the learner knows for certain does not exist: an invented paper, a regulation, a product model number, a person — made up on the spot, in a field the learner knows well enough to judge the answer. *"What were the main findings of Hartley and Vance's 2019 study on commuter cycling in Portland?"*
+The first three habits come from Lee et al. The fourth does not, and that difference is worth stating rather than hiding. It comes from eight documented instances of claims failing in ways the first three passed — six of them in earlier published versions of this curriculum, corrected in v0.6.1 through v0.6.4 and listed in the changelog, and two from unrelated work. That is real evidence and it is a different kind of evidence, which is worth saying out loud in a session about telling those apart.
+
+The reason the first three miss it is that they all confirm a claim *has* support. The reversal tests whether a position exists, the source demand tests whether a citation is real, the stakes test routes by consequence. None asks whether the support reaches the claim, so a real paper, correctly attributed, in the right field, supporting something adjacent will pass all three. **Topic-matching is not verification.**
+
+One boundary, because it is the kind of idea that expands: this does not cover Session 2's territory. When a model is working past its competence the answer is wrong at the root, the sources may be impeccable, and no amount of checking whether support reaches the claim helps. That failure is invisible to any question you can ask the model about itself, which is why Session 2 uses the learner's own expertise as the instrument instead.
+
+**The practice target.** The four habits above need something false to run on, and neither Session 2 nor real work can be relied on to supply one on schedule. This can. Ask the model about something the learner knows for certain does not exist: an invented paper, a regulation, a product model number, a person — made up on the spot, in a field the learner knows well enough to judge the answer. *"What were the main findings of Hartley and Vance's 2019 study on commuter cycling in Portland?"*
 
 Be precise about what this is and is not. It calibrates nothing. Session 2 did the calibration, against a domain where the learner outranked the model and did not know in advance where the edge would fall, and that is the exercise the Lee et al. finding requires. Here the learner holds the answer key from the start. That is not a flaw to apologize for, it is the condition that makes practice possible — you cannot rehearse checking on material whose truth you do not already know — but it means this exercise builds the motion and not the judgment. Say so out loud, or a learner will take the easy win for the hard one.
 
-Most of the time the model produces a confident summary of a study that has never existed, occasionally with page numbers and a journal name. Sometimes it refuses, or says it cannot find the work. That is also a result and should be named as one: these tools have measurably improved at this, and a kit that teaches learners to expect universal fabrication is teaching a different falsehood. Run it two or three times with different invented specifics before concluding anything about the model in front of you — one trial is an anecdote, and the point of the session is to stop accepting those.
+Most of the time the model produces a confident summary of a study that has never existed, occasionally with page numbers and a journal name. Sometimes it refuses, or says it cannot find the work. **Stop and name that when it happens, because it is the only positive signal this session offers.** Everything else here teaches the learner to catch a tool being wrong; nothing teaches them what being right looks like, and a course that only ever points at failure produces a learner who distrusts everything equally, which is not calibration. "I don't have that" names the boundary of what was actually seen. It is the same move as a claim that carries its own scope, and it is the behaviour most likely to move a skeptic toward a tool rather than away from one. These tools have measurably improved at this, and a kit that teaches learners to expect universal fabrication is teaching a different falsehood. Run it two or three times with different invented specifics before concluding anything about the model in front of you — one trial is an anecdote, and the point of the session is to stop accepting those.
 
 One thing to say once it lands: the failure mode is confidence, not error. The fabricated answer arrives in exactly the same register as a correct one, with no hedge and no drop in fluency to mark the edge it just crossed. That is why the three habits are procedures rather than instincts.
 
@@ -186,9 +193,23 @@ The same verification muscle applies outside the chat window, and this is where 
 
 Artifact: one instance where they personally caught a fabrication.
 
-This is the only artifact in the kit that depends on the model misbehaving, so it needs a floor. The source demand makes it far more reliable than it sounds — push on obscure specifics, demand citations, then open every one, and a meaningful share will not say what was claimed. But reliable is not guaranteed, and a session that ends in failure to find a failure teaches the wrong lesson.
+This is the only artifact in the kit that depends on the model misbehaving, so it needs a floor. The source demand makes it far more reliable than it sounds, provided the learner pushes in the right place. "Ask about obscure things" is too vague to act on. Confidence is highest, and accuracy lowest, in **highly patterned domains — where the *shape* of a correct answer is learnable and the specific instance may not exist at all**:
 
-The fallback, if forty minutes produce nothing: the learner documents **what they checked and what held**, then writes the tell they were hunting for. A verified-clean run is a real result and should be recorded as one. The competency being built is the checking, not the catching. The practice target is the reason this fallback is rarely reached — an invented citation is a near-guaranteed trigger where a real question is not — so a room that comes up empty on real work still has a documented catch to reason about. Instructors should nonetheless keep two or three pre-verified prompts from their own domain in reserve. **[F]** *(Apply — ethics of AI)*
+| Aim at | Why it breaks there |
+|---|---|
+| Citations and references | The format is perfectly learnable. Author, year, journal, page numbers all assemble correctly around a paper that was never written |
+| Model and part numbers | Same pattern, and a plausible-looking number is indistinguishable from a real one without a catalogue |
+| Version-specific menu paths | "Settings → Privacy → Data controls" is the right shape whether or not that path exists in the version in front of you |
+| Regulations, codes and official procedures | Officialese is a style before it is a fact, and it reproduces cleanly |
+| Dates, prices and figures in a standard format | The format carries authority the number has not earned |
+
+This list is drawn from observed errors rather than from a study, like the support test above. It is a map of where to aim, and it is what makes "verify everything" tractable enough to survive a real session. But reliable is not guaranteed, and a session that ends in failure to find a failure teaches the wrong lesson.
+
+The fallback, if the open hunt produces nothing: the learner documents **what they checked and what held**, then writes the tell they were hunting for. A verified-clean run is a real result and should be recorded as one. The competency being built is the checking, not the catching. Instructors should keep two or three pre-verified prompts from their own domain in reserve. **[F]**
+
+**A note on the clock, because this session is the fullest in the kit.** The open hunt on the learner's own work was originally budgeted at forty minutes, and that number was set when catching a fabrication depended on luck: the block had to run long because it was the only route to the artifact. The practice target changed its job. The artifact is now reliably in hand before the hunt starts, so the hunt is no longer hunting — it is applying four habits to work the learner actually cares about, which is worth about twenty focused minutes and gets worse, not better, past thirty.
+
+That re-pricing is what makes room for the fourth habit rather than the session simply running over. Session 3 sits at the top of the 45–90 band and should be planned there. If a facilitator finds it overrunning anyway, the honest cut is the open hunt, not the support test — the habits are the session and the hunt is the rehearsal. *(Apply — ethics of AI)*
 
 ### Session 4 — Life archaeology (backward, evidence-based)
 
@@ -292,6 +313,7 @@ Eight of the nine rows below are things the learner can do to themselves with th
 | Loop | What happens | Detection signal | Circuit breaker |
 |---|---|---|---|
 | **Sycophancy spiral** | The model validates your framing, you feed the validated framing back, it validates harder. Beliefs entrench with no external check. Described in the literature as bidirectional amplification, or technological folie à deux | You have not been told you're wrong in several sessions. The conversation feels unusually good | Argue the opposite case in a fresh conversation with no history. If it agrees with that too, you have learned nothing from either |
+| **Support that doesn't reach** | A claim you checked and cleared. The observation was sound but the conclusion covers ground it never sampled, or the source is real and supports something standing next to the claim rather than the claim | The conclusion is broader than the thing it looked at. Or: the citation resolved, the author was right, the topic was right, and you never read the specific sentence | Restate the finding with its real scope attached and see whether it still supports the action. For a source, read the sentence rather than the title |
 | **Frontier trap** | You are working just outside the model's competence and cannot see the line. Confidence is unchanged; accuracy has collapsed. This is the 19-percentage-point effect | Output is fluent, plausible, and you have no independent way to check it | Consult the frontier map from session two. If the task is near your edge, the tool downgrades from answer to draft |
 | **Cognitive debt** | Tool goes first, every time. Ownership, recall, and independent capability erode. Persists after tool use stops | You cannot reconstruct the reasoning. You cannot quote your own work | Reinstate human-first order. Produce a rough version unaided before opening anything |
 | **Reassurance loop** | Asking again instead of acting. Feels like diligence, functions as avoidance. Documented in the OCD and anxiety literature as chatbot-reinforced intolerance of uncertainty | You have asked variations of one question more than three times without acting | The third answer is the last answer. Act on it or drop the question |
