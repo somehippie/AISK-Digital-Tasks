@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.7 | 2026-09-20 | Current. Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
+| 0.7.1 | 2026-09-20 | Current. Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
+| 0.7 | 2026-09-20 | Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
 | 0.6.4 | 2026-09-20 | Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
 | 0.6.3 | 2026-09-20 | Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
 | 0.6.2 | 2026-09-20 | **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
@@ -39,6 +40,44 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Sources
+
+### 0.7.1 — the linking pass ran in the wrong direction
+
+The 0.7 pass walked the twenty-six sources and linked each where it was first
+introduced. Every *recurrence* of a figure was therefore left bare, and nine
+load-bearing numbers ended up unlinked at the point a reader most needs them.
+
+| Figure | Was linked at | Was bare at |
+|---|---|---|
+| 19 percentage points | Part 3 | **Session 2's instructor script** |
+| g = 0.465 and g = 0.277 | nowhere | Session 6, and again in Part 8 |
+| 85% role-relevance | Part 1 | Both Part 8 uses |
+| 84% EY | Part 1 | Inside the adoption arc |
+| 71% jobs | Part 1 | The honest ledger row |
+| 0.26 mL and 17 mL | The water row | The "no reliable number" row |
+
+Two were worse than the rest. The 19-point figure is the line a facilitator
+reads aloud in Session 2; a skeptic asks *says who*, and the document offered
+nothing at the point of use while the identical claim sat fully sourced fifty
+lines earlier. And g = 0.465 is called "the strongest single argument in the
+entire research base for using a conversational model here" — it had no link at
+first mention or anywhere else, because the meta-analysis had already been
+introduced two lines above for a different figure.
+
+**This is the third time the same direction error has produced defects.** A
+source-side pass asks "where did I introduce this source?" and stops there. A
+claim-side pass asks "which figures exist, and does each occurrence carry its
+source?" Verification found twice as many defects claim-side. The linking pass
+was built to close a sourcing gap and reproduced the gap in a new form because
+it ran the other way.
+
+Also now stated in the Source notes entry: the `dellacqua-2026` key resolves to
+the open-access preprint, HBS Working Paper 24-013, dated **September 2023**,
+because the journal version is paywalled. A reader clicking a key labelled 2026
+lands on a document dated 2023, and the entry now says so.
+
+Link graph after the pass: 68 usages, 29 keys, 29 definitions, none undefined,
+none unused, no bare figure sites remaining.
 
 ### 0.7 — the citation apparatus
 
