@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.6.4 — September 2026.
+Version 0.7 — September 2026.
 
 ---
 
@@ -11,17 +11,17 @@ Version 0.6.4 — September 2026.
 
 The starting idea was: build the person's life story, find where they want to be before they die, then use AI plus strategy plus iteration to get there. The research supports the destination and contradicts the order of operations. Five findings force a redesign.
 
-**The skeptics are the majority, not the fringe.** Pew's June 2026 survey found 52% of US adults are more concerned than excited about AI, against 9% more excited. For the first time a majority of under-30s (55%) are in the concerned column, and 71% expect AI to reduce the number of jobs. This is not a kit for a minority of holdouts. It is a kit for the median person, and it should be built with the confidence that comes from that.
+**The skeptics are the majority, not the fringe.** [Pew's June 2026 survey][pew-2026-06] found 52% of US adults are more concerned than excited about AI, against 9% more excited. For the first time a majority of under-30s (55%) are in the concerned column, and 71% expect AI to reduce the number of jobs. This is not a kit for a minority of holdouts. It is a kit for the median person, and it should be built with the confidence that comes from that.
 
-**The gap is entry, not satisfaction.** The EY Ripples and AARP/OATS survey of 2,515 people aged 60–85 across 16 countries found that among those who had actually tried AI tools, 84% reported positive experiences for work, 83% for learning, and 80% for creative pursuits. The most common use was learning, at 79%. People who cross the threshold mostly like it. The problem is the threshold, and the first thing they reach for is not productivity — it is curiosity.
+**The gap is entry, not satisfaction.** The [EY Ripples and AARP/OATS survey][ey-aarp-2026] of 2,515 people aged 60–85 across 16 countries found that among those who had actually tried AI tools, 84% reported positive experiences for work, 83% for learning, and 80% for creative pursuits. The most common use was learning, at 79%. People who cross the threshold mostly like it. The problem is the threshold, and the first thing they reach for is not productivity — it is curiosity.
 
-**Generic training is the thing that already failed.** In Docebo's 2026 survey of 2,000 employees, 85% said their AI training did not help them understand how to use AI in their specific role. Another tool tour will do nothing. The personalization is not a nice-to-have; it is the entire active ingredient. This is the strongest argument for the life-story premise — but it argues for personalization of *the task*, not necessarily of *the emotional content*.
+**Generic training is the thing that already failed.** In [Docebo's 2026 survey][docebo-2026] of 2,000 employees, 85% said their AI training did not help them understand how to use AI in their specific role. Another tool tour will do nothing. The personalization is not a nice-to-have; it is the entire active ingredient. This is the strongest argument for the life-story premise — but it argues for personalization of *the task*, not necessarily of *the emotional content*.
 
-**Order of operations determines whether the tool builds or erodes skill.** Kosmyna et al. at MIT Media Lab (2025) ran essay-writing sessions on EEG: 54 participants across the first three sessions, of whom **18** returned for a fourth in which conditions were swapped. Across the main sessions, brain connectivity scaled down with the amount of external support, and the LLM group showed the weakest coupling, the lowest sense of ownership, and trouble quoting their own writing. The result that bears on curriculum design comes from that fourth session: participants who had written unaided first and then brought in the LLM showed higher memory recall and stronger prefrontal and occipito-parietal activation, while those who went the other way showed reduced alpha and beta connectivity.
+**Order of operations determines whether the tool builds or erodes skill.** [Kosmyna et al. at MIT Media Lab (2025)][kosmyna-2025] ran essay-writing sessions on EEG: 54 participants across the first three sessions, of whom **18** returned for a fourth in which conditions were swapped. Across the main sessions, brain connectivity scaled down with the amount of external support, and the LLM group showed the weakest coupling, the lowest sense of ownership, and trouble quoting their own writing. The result that bears on curriculum design comes from that fourth session: participants who had written unaided first and then brought in the LLM showed higher memory recall and stronger prefrontal and occipito-parietal activation, while those who went the other way showed reduced alpha and beta connectivity.
 
 That last result is eighteen people in one session of one study, and it should be held exactly that loosely. Every exercise in this kit runs human-first anyway, and the reason is not the effect size. **The costs are asymmetric.** A learner who thinks first and brings the tool in second loses a few minutes if the finding fails to replicate. A learner who goes tool-first risks what the study points at if it holds. A cheap precaution against a plausible harm is worth taking at n=18, which an effect-size argument would not be, and the kit should say which of the two is doing the work.
 
-**Confidence in yourself protects you; confidence in the AI does not.** Lee et al. (Microsoft Research and Carnegie Mellon, CHI 2025) surveyed 319 knowledge workers across 936 real AI-assisted tasks. Higher confidence in the AI predicted *less* critical thinking. Higher confidence in one's own ability on the task predicted *more*. This inverts the usual teaching instinct. The goal is not to make the learner trust the tool. It is to make the learner trust themselves enough to argue with it.
+**Confidence in yourself protects you; confidence in the AI does not.** [Lee et al.][lee-2025] (Microsoft Research and Carnegie Mellon, CHI 2025) surveyed 319 knowledge workers across 936 real AI-assisted tasks. Higher confidence in the AI predicted *less* critical thinking. Higher confidence in one's own ability on the task predicted *more*. This inverts the usual teaching instinct. The goal is not to make the learner trust the tool. It is to make the learner trust themselves enough to argue with it.
 
 ### The correction
 
@@ -29,10 +29,10 @@ Opening a kit for AI skeptics with "tell the machine your life story" is the wor
 
 | Reason | Evidence |
 |---|---|
-| Privacy is their live objection | Roughly seven in ten US adults expect AI to make their personal information less secure (Pew, Feb 2026). Step one asks them to hand over their most sensitive material to the thing they distrust |
-| Personal conversations track worse outcomes | In Fang et al.'s four-week MIT/OpenAI RCT (n=981), higher daily use correlated with higher loneliness, emotional dependence, and problematic use, and lower socialization. Personal-topic conditions correlated with higher loneliness |
-| Sycophancy is worst exactly here | The "technological folie à deux" model (Nature Mental Health, 2026) describes bidirectional amplification: the model validates a self-narrative, the narrative re-enters context, the model validates harder. A life story is the ideal substrate for this loop |
-| Pure aspiration reduces effort | Oettingen's core finding, demonstrated experimentally by Kappes and Oettingen (2011) and set out across a 63-page review of the fantasy-realization literature (Oettingen, 2012): vividly imagining a desired outcome as already achieved *decreases* goal-relevant effort and attainment relative to controls. A vision-board session actively makes people less likely to act |
+| Privacy is their live objection | Roughly seven in ten US adults expect AI to make their personal information less secure ([Pew, Feb 2026][pew-2026-02]). Step one asks them to hand over their most sensitive material to the thing they distrust |
+| Personal conversations track worse outcomes | In [Fang et al.'s four-week MIT/OpenAI RCT][fang-2025] (n=981), higher daily use correlated with higher loneliness, emotional dependence, and problematic use, and lower socialization. Personal-topic conditions correlated with higher loneliness |
+| Sycophancy is worst exactly here | The "technological folie à deux" model ([Nature Mental Health, 2026][dohnany-2026]) describes bidirectional amplification: the model validates a self-narrative, the narrative re-enters context, the model validates harder. A life story is the ideal substrate for this loop |
+| Pure aspiration reduces effort | Oettingen's core finding, demonstrated experimentally by [Kappes and Oettingen (2011)][kappes-2011] and set out across a 63-page review of the fantasy-realization literature ([Oettingen, 2012][oettingen-2012]): vividly imagining a desired outcome as already achieved *decreases* goal-relevant effort and attainment relative to controls. A vision-board session actively makes people less likely to act |
 
 So the life story stays — it is the right destination and the right source of motivation — but it moves from session one to session four, after the learner has earned the ability to catch the model being wrong. The kit buys trust with a small verifiable win before it asks for anything personal.
 
@@ -48,7 +48,7 @@ Merging them produces a curriculum that condescends to the first group and overw
 | What a bad kit does | Tries to argue them out of it, or opens with benefits. Both read as sales and confirm their prior | Shows them twelve tools. Confirms the complexity fear and produces paralysis |
 | What actually opens the door | Giving their objection accurate ammunition. Most of what they've heard is wrong in *both* directions, and the corrections cut both ways | Removing choice. One tool, one task, one sitting, done today |
 | Entry ramp | Session 1A — Standing | Session 1B — One thing |
-| Load-bearing evidence | De Freitas et al., *Nature Human Behaviour* (2023): resistance drops when users are given a genuine measure of control — with the paper's own bound attached, that the effect plateaus and too much control degrades decision accuracy. So the move is a small control actually exercised, not a large one offered | Brynjolfsson, Li & Raymond (*QJE*, 2025): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. Dell'Acqua et al.: below-average BCG consultants gained 43% against 17% for above-average performers |
+| Load-bearing evidence | [De Freitas et al., *Nature Human Behaviour* (2023)][defreitas-2023]: resistance drops when users are given a genuine measure of control — with the paper's own bound attached, that the effect plateaus and too much control degrades decision accuracy. So the move is a small control actually exercised, not a large one offered | [Brynjolfsson, Li & Raymond][brynjolfsson-2025] (*QJE*, 2025): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. [Dell'Acqua et al.][dellacqua-2026]: below-average BCG consultants gained 43% against 17% for above-average performers |
 
 The single most useful sentence for the overwhelmed learner is a research finding, not a reassurance: **in the studies that exist, the people who gain most from these tools are the ones who start with the least expertise.** Being behind is the advantage, not the disqualification.
 
@@ -95,13 +95,13 @@ This goes in the kit verbatim, early, for both audiences. Credibility is the who
 
 | Claim | Honest status |
 |---|---|
-| "Each prompt drinks a bottle of water" | Wrong, and the number it came from never said that. Google published a measured median of ~0.26 mL of onsite water per Gemini text prompt, with its methodology; OpenAI has *stated* ~0.32 mL without publishing one, and the difference between a measured figure and an asserted one is worth keeping in view. The viral ~519 mL came from a September 2024 *Washington Post* analysis with UC Riverside, and it was full-scope water for a **100-word email** written by GPT-4 — not a prompt, and not a worst case. That figure's own author revised it in August 2026 to roughly 15 mL for a GPT-4 prompt, about 5 mL of it onsite. An earlier 2023 paper by the same group is the other number people quote: 500 mL per *10 to 50* GPT-3 responses, which is where "a bottle of water" entered circulation with the denominator dropped |
+| "Each prompt drinks a bottle of water" | Wrong, and the number it came from never said that. [Google published a measured median][google-water-2025] of ~0.26 mL of onsite water per Gemini text prompt, with its methodology; OpenAI has [*stated* ~0.32 mL][openai-water-2025] without publishing one, and the difference between a measured figure and an asserted one is worth keeping in view. The viral ~519 mL came from a [September 2024 *Washington Post* analysis with UC Riverside][wapo-2024], and it was full-scope water for a **100-word email** written by GPT-4 — not a prompt, and not a worst case. That figure's own author revised it in August 2026 to roughly 15 mL for a GPT-4 prompt, about 5 mL of it onsite. An [earlier 2023 paper by the same group][ren-2023] is the other number people quote: 500 mL per *10 to 50* GPT-3 responses, which is where "a bottle of water" entered circulation with the denominator dropped |
 | "So we have a reliable number now" | No. Published per-prompt estimates in 2026 span from 0.26 mL to 17 mL depending on who measured, what they counted, and how long the prompt was — one independent study put GPT-4o between 0.6 and 17 mL on input length alone. The order of magnitude is settled and the figure is not. Quote a range with its scope attached, or quote nothing |
-| "The environmental concern is therefore fake" | Also wrong. Global data center electricity demand reached roughly 460–490 TWh in 2025 and is projected to roughly double by 2030. Individual prompting is negligible; the aggregate buildout, its siting, and local grid and watershed stress are real and are a legitimate policy fight. Your personal abstention does not touch it — which is an argument about where to direct the objection, not an argument against having it |
+| "The environmental concern is therefore fake" | Also wrong. [Global data center electricity demand][iea-2025] reached roughly 460–490 TWh in 2025 and is projected to roughly double by 2030. Individual prompting is negligible; the aggregate buildout, its siting, and local grid and watershed stress are real and are a legitimate policy fight. Your personal abstention does not touch it — which is an argument about where to direct the objection, not an argument against having it |
 | "AI will take jobs" | 71% of US adults expect fewer jobs over the next two decades. Economists disagree sharply and the honest answer is that nobody knows the net. What is measured is that the tools compress skill gaps on well-defined tasks, which is good for the novice and threatening to the person whose position rested on that specific expertise |
 | "It makes you stupid" | The strongest version of this is real and specific. Cognitive debt accumulates when the tool goes first. It does not appear the same way when the human goes first. This is a usage-order problem with a known fix, not a property of the tool |
-| "It just agrees with you" | Largely true and the most underrated risk in the whole space. Sycophancy is documented, and the APA's 2025 health advisory describes "single-person echo chambers." This kit treats it as the primary hazard, not a footnote |
-| "It's often confidently wrong" | True and quantified. Dell'Acqua et al. found that on a task deliberately placed outside the model's capability, consultants using GPT-4 were **19 percentage points less likely** to reach a correct answer than consultants with no AI at all. Same people, same week — outcome decided by which side of an invisible line the task fell on |
+| "It just agrees with you" | Largely true and the most underrated risk in the whole space. Sycophancy is documented, and the [APA's 2025 health advisory][apa-2025] describes "single-person echo chambers." This kit treats it as the primary hazard, not a footnote |
+| "It's often confidently wrong" | True and quantified. [Dell'Acqua et al.][dellacqua-2026] found that on a task deliberately placed outside the model's capability, consultants using GPT-4 were **19 percentage points less likely** to reach a correct answer than consultants with no AI at all. Same people, same week — outcome decided by which side of an invisible line the task fell on |
 
 That last row is the most important number in the kit. It is the thing nobody tells beginners, it validates the skeptic's instinct, and it is the entire justification for teaching calibration before capability.
 
@@ -113,7 +113,7 @@ Sessions run 45–90 minutes, weekly, with a deliberate two-week gap between ses
 
 **This is specified as the facilitated build.** The instructor voice throughout is a commitment, not a default — the WOOP meta-analysis found facilitated delivery nearly doubled the effect over document-based delivery, so the version worth specifying first is the one with the larger known effect. Part 8 asks whether it can be *de*-facilitated without losing that, which is a question about a derivative of this design rather than an alternative to it. Where a step depends on a live facilitator in a way a solo learner could not replicate, it is marked **[F]**.
 
-Mapped against the UNESCO AI Competency Framework's four dimensions (human-centred mindset, ethics of AI, AI techniques and applications, AI system design) and three progression levels (Understand, Apply, Create).
+Mapped against the [UNESCO AI Competency Framework's][unesco-2024] four dimensions (human-centred mindset, ethics of AI, AI techniques and applications, AI system design) and three progression levels (Understand, Apply, Create).
 
 The levels are **per competency, not a course-wide ladder**, and the tags will look non-monotonic as a result. Session 1B is Apply on techniques while session 2 is Understand on human-centred mindset — that is not a regression, it is a different dimension starting from the bottom. The sequence is deliberate: a learner who can operate the tool but cannot locate its limits is exactly the mis-calibrated profile the Lee et al. and Dell'Acqua findings warn about. Applying before understanding, in that order, on those two dimensions, is the point.
 
@@ -182,7 +182,7 @@ Most of the time the model produces a confident summary of a study that has neve
 
 One thing to say once it lands: the failure mode is confidence, not error. The fabricated answer arrives in exactly the same register as a correct one, with no hedge and no drop in fluency to mark the edge it just crossed. That is why the three habits are procedures rather than instincts.
 
-The same verification muscle applies outside the chat window, and this is where the stakes test does its most important work. AI-generated voices, video, and images now show up in scams as often as in chatbot answers — a call that sounds exactly like a family member in trouble, a video of someone saying something they never said. The tell is procedural, not perceptual: you often cannot hear or see the difference, so the circuit breaker is the same one taught here — verify through a second channel you already trust — never a sharper ear.
+The same verification muscle applies outside the chat window, and this is where the stakes test does its most important work. [AI-generated voices, video, and images][ncoa-2026] now show up in scams as often as in chatbot answers — a call that sounds exactly like a family member in trouble, a video of someone saying something they never said. The tell is procedural, not perceptual: you often cannot hear or see the difference, so the circuit breaker is the same one taught here — [verify through a second channel you already trust][mcafee-2026] — never a sharper ear.
 
 Artifact: one instance where they personally caught a fabrication.
 
@@ -240,7 +240,7 @@ This session exists because the intuitive version of it is actively harmful.
 
 Oettingen's finding is that pure positive visualization deceives the motivational system: the brain partially registers the imagery as evidence the goal is already met, and energy that should fund action dissipates into the experience of success. Vision boards do not just fail to work. In controlled comparison they underperform doing nothing.
 
-The correction is WOOP — wish, outcome, obstacle, plan — which pairs the positive future with concrete confrontation of the internal obstacle and an if-then plan. The 2021 meta-analysis (24 independent effect sizes, 15,907 participants) found a small-to-medium effect on goal attainment, g = 0.336. Two details from that meta-analysis are directly actionable for curriculum design.
+The correction is WOOP — wish, outcome, obstacle, plan — which pairs the positive future with concrete confrontation of the internal obstacle and an if-then plan. The [2021 meta-analysis][wang-2021] (24 independent effect sizes, 15,907 participants) found a small-to-medium effect on goal attainment, g = 0.336. Two details from that meta-analysis are directly actionable for curriculum design.
 
 Interactive delivery substantially outperformed document-based delivery: g = 0.465 for interventions built on interaction between participant and facilitator, against g = 0.277 for participant-and-document. **This is the strongest single argument in the entire research base for using a conversational model here.** It nearly doubles the effect, and it is the one place in the kit where the tool is not a convenience but the mechanism.
 
@@ -273,7 +273,7 @@ Artifact: one prototype scheduled with a date on it. *(Create — AI system desi
 
 **Then the return.** Refuser-track learners annotate the objection they wrote in 1A — what they still believe, what changed, what got *worse* on inspection. The 1B track never wrote one, having entered through the task ramp instead, so their return is the trust question: what did you think these tools were in week one, what do you think now, and what specifically moved you. Same exercise, different artifact, and the 1B version is often the more honest of the two because it was answered before the learner had a position to defend.
 
-Expect and normalize an acceptance dip in both tracks. Li et al. found an inverse relationship between AI literacy and AI acceptance — lower literacy increases the sense of mystery around AI behavior and raises acceptance, and demystification reduces it. Learners will often like these tools somewhat less at the end than the middle, and will be better at using them. Say this out loud in session one so it reads as predicted rather than as failure, and say it again here while the numbers are on the table, because a learner watching their own trust score fall will read it as the course having failed them unless someone said otherwise first.
+Expect and normalize an acceptance dip in both tracks. [Li et al.][li-2025] found an inverse relationship between AI literacy and AI acceptance — lower literacy increases the sense of mystery around AI behavior and raises acceptance, and demystification reduces it. Learners will often like these tools somewhat less at the end than the middle, and will be better at using them. Say this out loud in session one so it reads as predicted rather than as failure, and say it again here while the numbers are on the table, because a learner watching their own trust score fall will read it as the course having failed them unless someone said otherwise first.
 
 Then the operating loop they leave with, which is the whole method compressed: **think first, then ask, then verify, then act, then check what actually happened.** Ninety days out, revisit the three plans and re-ask the reliance and conversation questions a third time. Plans that survive contact get more resource. Plans that don't get retired without ceremony.
 
@@ -348,9 +348,9 @@ And keep the emphasis where the evidence puts it: context beats phrasing. Prompt
 
 ### Where this kit sits relative to other programs
 
-Checked against Google's AI Essentials, the University of Helsinki's Elements of AI, and Anthropic's own AI Fluency framework, this kit's structure holds up without needing new sessions. Elements of AI and Microsoft's AI-for-Beginners are conceptual/technical courses (bias, algorithms, neural networks) aimed at a different goal and are deliberately out of scope here. Google AI Essentials covers similar practical ground — prompting, productivity, "using AI responsibly" — at lower depth on verification and none on the psychological failure modes this kit is built around.
+Checked against [Google's AI Essentials][google-ai-essentials], the University of Helsinki's [Elements of AI][elements-of-ai], and Anthropic's own AI Fluency framework, this kit's structure holds up without needing new sessions. Elements of AI and Microsoft's AI-for-Beginners are conceptual/technical courses (bias, algorithms, neural networks) aimed at a different goal and are deliberately out of scope here. Google AI Essentials covers similar practical ground — prompting, productivity, "using AI responsibly" — at lower depth on verification and none on the psychological failure modes this kit is built around.
 
-The one useful convergence worth naming to a facilitator: Anthropic's AI Fluency framework (Delegation, Description, Discernment, Diligence) independently arrives at nearly the same sequence this kit teaches — Session 1B's "you are learning to describe" is Description, and Session 3's verification habits are Discernment and Diligence. Two programs built for different audiences landing on the same structure is a reason for confidence, not a reason to import their material — nothing from that framework is added here beyond the citation.
+The one useful convergence worth naming to a facilitator: [Anthropic's AI Fluency framework][anthropic-fluency] (Delegation, Description, Discernment, Diligence) independently arrives at nearly the same sequence this kit teaches — Session 1B's "you are learning to describe" is Description, and Session 3's verification habits are Discernment and Diligence. Two programs built for different audiences landing on the same structure is a reason for confidence, not a reason to import their material — nothing from that framework is added here beyond the citation.
 
 The one genuine gap the comparison surfaced is already folded in above: none of these programs, and no earlier draft of this kit, addressed AI being used *against* the learner rather than *by* them — voice-cloning and deepfake scams. That's now Session 3's closing paragraph and the ninth row of the Part 5 field guide, not a new session.
 
@@ -361,6 +361,8 @@ The one genuine gap the comparison surfaced is already folded in above: none of 
 Kirkpatrick levels three and four, since levels one and two will look fine regardless and tell you nothing.
 
 Every row names where the data comes from. A metric with no collection point is a wish, and the first draft of this section had five of them.
+
+Two of the rows below are **leading indicators** in the New World Kirkpatrick sense: short-term observations that move before the outcome does, and that tell you whether the outcome is still reachable while there is time to act. The week-four checkpoint is one, and the session 3 artifact is the other. The counter-metrics work the same way in the opposite direction. That vocabulary is worth using out loud with anyone who evaluates training professionally, because it is the language a library, workplace or grant programme will already be reading in — the design was built this way before it had the name.
 
 | Level | Measure | Collected at | Why this one |
 |---|---|---|---|
@@ -385,7 +387,7 @@ Human contact should rise, not fall. Re-ask the baseline's conversation count at
 
 Four steps carry an **[F]** mark, and they are the ones that would need replacing rather than porting: the instructor declining to rebut in 1A, the hands-off rule in 1B, the authority-in-the-room effect in session 2, and the reserve prompts in session 3. Three of the four are social rather than instructional — they depend on a witness, not on expertise, which is either encouraging or discouraging depending on whether you think a model can be a witness. The unresolved possibility is that a conversational model is itself the "interactive" condition in the meta-analytic sense — which would be a genuinely novel claim, testable, and not yet tested by anyone. If it holds, the solo build loses less than expected. If it does not, the solo build is the g=0.277 workbook with extra steps, and should be priced accordingly.
 
-**How far does the mortality frame go?** "Before you die" is motivationally correct and evidence-supported — Hershfield's work shows that vividness, connectedness, and positive valence toward the future self all predict better long-term decisions, and age-progressed imagery measurably increases that connectedness. It is also the framing most likely to lose a room in the first ten minutes. A softer version ("the next five years, three ways") may capture most of the effect at a fraction of the resistance. Worth A/B testing rather than deciding by intuition.
+**How far does the mortality frame go?** "Before you die" is motivationally correct and evidence-supported — [Hershfield's work][hershfield-2011] shows that vividness, connectedness, and positive valence toward the future self all predict better long-term decisions, and age-progressed imagery measurably increases that connectedness. It is also the framing most likely to lose a room in the first ten minutes. A softer version ("the next five years, three ways") may capture most of the effect at a fraction of the resistance. Worth A/B testing rather than deciding by intuition.
 
 **Where's the delivery surface?** Sessions and a workbook is the default and the default has an 85% failure rate on role-relevance. Alternatives worth pricing: a single laminated card plus one live session; a library or community-center partnership, which is where the EY/AARP report points for the older cohort; or an instrumented version where a purpose-built tool enforces the human-first order rather than trusting learners to self-police it.
 
@@ -399,4 +401,95 @@ Four steps carry an **[F]** mark, and they are the ones that would need replacin
 
 ## Source notes
 
-Pew Research Center, June 2026 and February 2026 surveys of US adults. EY Ripples and AARP/OATS, *Understanding Older Generations' Adoption of AI*, published April 2026, fieldwork 29 October to 13 November 2025 (n=2,515, aged 60–85, 16 countries). Kosmyna et al., "Your Brain on ChatGPT," MIT Media Lab, 2025 (arXiv:2506.08872). Lee et al., "The Impact of Generative AI on Critical Thinking," Microsoft Research and Carnegie Mellon, CHI 2025. Dell'Acqua et al., "Navigating the Jagged Technological Frontier," *Organization Science*, 2026 (n=758); open access as Harvard Business School Working Paper 24-013, September 2023. Brynjolfsson, Li & Raymond, "Generative AI at Work," *Quarterly Journal of Economics* 140(2), 2025, 889–942 (n=5,179). De Freitas et al., *Nature Human Behaviour*, 2023. Wang, Wang & Gai, MCII meta-analysis, *Frontiers in Psychology*, 2021 (24 effect sizes, n=15,907). Oettingen, *Rethinking Positive Thinking*, 2014; the experimental source is Kappes & Oettingen, "Positive fantasies about idealized futures sap energy," *Journal of Experimental Social Psychology*, 2011, and the literature review is Oettingen, "Future thought and behaviour change," *European Review of Social Psychology* 23(1), 2012, 1–63. Burnett & Evans, *Designing Your Life*, 2016. Hershfield, future self-continuity, *Annals of the NY Academy of Sciences*, 2011. Fang et al., MIT Media Lab and OpenAI, four-week randomized controlled trial on affective use, 2025 (n=981; arXiv:2503.17473), and its companion platform study, Phang et al., 2025 (arXiv:2504.03888). APA health advisory on generative AI chatbots and wellness applications, 2025. Nature Mental Health, "Technological folie à deux," 2026. UNESCO AI Competency Framework for Students, 2024. National Council on Aging, "What Are AI Scams? A Guide for Older Adults," 2026. McAfee, "A Guide to Deepfake Scams and AI Voice Spoofing," 2026. Google, "How we created our Google AI Essentials course," 2026. University of Helsinki, *Elements of AI*, course materials. Anthropic, *AI Fluency: Framework & Foundations*, Claude Academy, 2026.
+Every source below has been verified for the specific claim attributed to it,
+not merely for existing. Checking that a citation resolves is not the same as
+checking that it says what it is cited for, and the difference produced five of
+the eight defects corrected in v0.6.1 through v0.6.4.
+
+**Rows are grouped by how fast they go wrong, not alphabetically.** Part 8
+commits to an accuracy obligation; this is what keeping it looks like as a
+schedule rather than an intention. All rows were verified on 2026-09-20. Dating
+them all to a single re-check would create one large event instead of a rolling
+obligation, so each carries a horizon matched to its own volatility.
+
+### Re-check by 2027-01 — figures that moved by orders of magnitude in three years
+
+| Key | Source | Link |
+|---|---|---|
+| `google-water-2025` | Google, "Measuring the environmental impact of delivering AI at Google Scale," 2025. Median 0.26 mL onsite water, 0.24 Wh, 0.03 gCO2e per Gemini text prompt | [arXiv:2508.15734][google-water-2025] |
+| `openai-water-2025` | OpenAI, Altman blog post, 2025. States 0.000085 gallons (~0.32 mL) and 0.34 Wh per query. **No methodology published** | [datacenterdynamics.com][openai-water-2025] |
+| `wapo-2024` | *Washington Post* with UC Riverside, September 2024. 519 mL full-scope water for a 100-word GPT-4 email | [washingtonpost.com][wapo-2024] |
+| `ren-2023` | Ren et al., "Making AI Less 'Thirsty'," 2023. 500 mL per 10–50 GPT-3 responses. The author's August 2026 revision puts a GPT-4 prompt near 15 mL, about 5 mL of it onsite | [arXiv:2304.03271][ren-2023] |
+| `iea-2025` | IEA, *Energy and AI*, April 2025. 485 TWh data-centre demand in 2025, roughly 945 TWh projected for 2030 | [iea.org][iea-2025] |
+
+### Re-check by 2027-06 — surveys on an annual cycle
+
+| Key | Source | Link |
+|---|---|---|
+| `pew-2026-02` | Pew Research Center, February 2026 (n=5,119, fielded 17–23 Feb). Roughly seven in ten expect AI to make personal information less secure. *Re-check 2027-02* | [pewresearch.org][pew-2026-02] |
+| `ey-aarp-2026` | EY Ripples and AARP/OATS, *Understanding Older Generations' Adoption of AI*, published April 2026, fieldwork 29 Oct to 13 Nov 2025 (n=2,515, aged 60–85, 16 countries). 84 / 83 / 80% positive; 79% learning | [ey.com][ey-aarp-2026] |
+| `docebo-2026` | Docebo and Centiment, *The AI Readiness Gap*, 2026 (n=2,000 across six countries). 85% say training does not help them use AI in their role | [docebo.com][docebo-2026] |
+| `pew-2026-06` | Pew Research Center, June 2026 (n=3,488, fielded 22–28 June). 52% concerned against 9% excited; 55% of under-30s, the first majority; 71% expect fewer jobs | [pewresearch.org][pew-2026-06] |
+
+### Re-check by 2027-09 — live pages, advisories and courses that change without notice
+
+| Key | Source | Link |
+|---|---|---|
+| `apa-2025` | American Psychological Association, health advisory on generative AI chatbots and wellness applications, 2025. Source of "single-person echo chambers" | [apa.org][apa-2025] |
+| `ncoa-2026` | National Council on Aging, "What Are AI Scams? A Guide for Older Adults," 2026. Source of the call-back and family-code-word circuit breakers | [ncoa.org][ncoa-2026] |
+| `mcafee-2026` | McAfee, "A Guide to Deepfake Scams and AI Voice Spoofing," 2026 | [mcafee.com][mcafee-2026] |
+| `google-ai-essentials` | Google, *AI Essentials*. Five modules, including prompting, productivity and "Use AI Responsibly" | [grow.google][google-ai-essentials] |
+| `elements-of-ai` | University of Helsinki and MinnaLearn, *Elements of AI*. Six chapters, conceptual and technical | [elementsofai.com][elements-of-ai] |
+| `anthropic-fluency` | Anthropic, *AI Fluency: Framework & Foundations*. Delegation, Description, Discernment, Diligence | [academy.claude.com][anthropic-fluency] |
+
+### Re-check by 2029 — peer-reviewed papers, books and published frameworks
+
+| Key | Source | Link |
+|---|---|---|
+| `kosmyna-2025` | Kosmyna et al., "Your Brain on ChatGPT," MIT Media Lab, 2025. 54 participants across sessions 1–3; **18** completed session 4, which is the crossover | [arXiv:2506.08872][kosmyna-2025] |
+| `lee-2025` | Lee et al., "The Impact of Generative AI on Critical Thinking," CHI 2025 (n=319, 936 examples) | [doi:10.1145/3706598.3713778][lee-2025] |
+| `dellacqua-2026` | Dell'Acqua et al., "Navigating the Jagged Technological Frontier," *Organization Science*, 2026 (n=758). Open access as Harvard Business School Working Paper 24-013, September 2023 | [hbs.edu][dellacqua-2026] |
+| `brynjolfsson-2025` | Brynjolfsson, Li & Raymond, "Generative AI at Work," *Quarterly Journal of Economics* 140(2), 2025, 889–942 (n=5,179) | [academic.oup.com][brynjolfsson-2025] |
+| `defreitas-2023` | De Freitas, Agarwal, Schmitt & Haslam, "Psychological factors underlying attitudes toward AI tools," *Nature Human Behaviour*, 2023 | [nature.com][defreitas-2023] |
+| `fang-2025` | Fang et al., four-week MIT Media Lab and OpenAI randomized controlled trial on affective use, 2025 (n=981) | [arXiv:2503.17473][fang-2025] |
+| `phang-2025` | Phang et al., the companion platform study to the above, 2025 | [arXiv:2504.03888][phang-2025] |
+| `dohnany-2026` | Dohnány et al., "Technological folie à deux: feedback loops between AI chatbots and mental health," *Nature Mental Health* 4, 2026, 336–345 | [doi:10.1038/s44220-026-00595-8][dohnany-2026] |
+| `li-2025` | Li et al., "The Surprising Paradox of AI Literacy: How Lower AI Literacy Can Lead to Higher Acceptance," *International Journal of Human–Computer Interaction* 42(17), 2025 | [doi:10.1080/10447318.2025.2609912][li-2025] |
+| `wang-2021` | Wang, Wang & Gai, "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment," *Frontiers in Psychology* 12:565202, 2021. g=0.336; 0.465 facilitated against 0.277 document-based | [doi:10.3389/fpsyg.2021.565202][wang-2021] |
+| `kappes-2011` | Kappes & Oettingen, "Positive fantasies about idealized futures sap energy," *Journal of Experimental Social Psychology*, 2011. The experimental source for the effect | [uni-hamburg.de][kappes-2011] |
+| `oettingen-2012` | Oettingen, "Future thought and behaviour change," *European Review of Social Psychology* 23(1), 2012, 1–63. The literature review behind the programme-level claim | [tandfonline.com][oettingen-2012] |
+| `oettingen-2014` | Oettingen, *Rethinking Positive Thinking*, 2014 | Book |
+| `burnett-evans-2016` | Burnett & Evans, *Designing Your Life*, 2016. Source of Odyssey Plans, gravity problems, dysfunctional beliefs, prototype conversations and experiences, and the Good Time Journal | Book |
+| `hershfield-2011` | Hershfield, "Future self-continuity," *Annals of the New York Academy of Sciences* 1235, 2011, 30–43 | [doi:10.1111/j.1749-6632.2011.06201.x][hershfield-2011] |
+| `unesco-2024` | UNESCO, *AI Competency Framework for Students*, 2024. Four dimensions, three progression levels, 12 competencies. *Re-check 2028, frameworks revise* | [unesco.org][unesco-2024] |
+| `kirkpatrick-2016` | Kirkpatrick & Kirkpatrick, *Kirkpatrick's Four Levels of Training Evaluation*, ATD Press, 2016. Level 3 Behavior, Level 4 Results | Book |
+
+[google-water-2025]: https://arxiv.org/abs/2508.15734
+[openai-water-2025]: https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/
+[wapo-2024]: https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/
+[ren-2023]: https://arxiv.org/abs/2304.03271
+[iea-2025]: https://www.iea.org/reports/energy-and-ai/executive-summary
+[pew-2026-02]: https://www.pewresearch.org/chart/americans-largely-think-ai-will-make-their-personal-information-less-secure/
+[ey-aarp-2026]: https://www.ey.com/en_gl/about-us/corporate-responsibility/how-older-generations-are-engaging-with-ai-and-why-it-matters
+[docebo-2026]: https://www.docebo.com/company/newsroom/docebo-releases-the-ai-readiness-gap-report/
+[pew-2026-06]: https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/
+[apa-2025]: https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-chatbots-wellness-apps
+[ncoa-2026]: https://www.ncoa.org/article/what-are-ai-scams-a-guide-for-older-adults/
+[mcafee-2026]: https://www.mcafee.com/learn/a-guide-to-deepfake-scams-and-ai-voice-spoofing/
+[google-ai-essentials]: https://grow.google/ai-essentials/
+[elements-of-ai]: https://www.elementsofai.com/
+[anthropic-fluency]: https://academy.claude.com/courses/ai-fluency-framework-foundations
+[kosmyna-2025]: https://arxiv.org/abs/2506.08872
+[lee-2025]: https://doi.org/10.1145/3706598.3713778
+[dellacqua-2026]: https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf
+[brynjolfsson-2025]: https://academic.oup.com/qje/article/140/2/889/7990658
+[defreitas-2023]: https://www.nature.com/articles/s41562-023-01734-2
+[fang-2025]: https://arxiv.org/abs/2503.17473
+[phang-2025]: https://arxiv.org/abs/2504.03888
+[dohnany-2026]: https://doi.org/10.1038/s44220-026-00595-8
+[li-2025]: https://doi.org/10.1080/10447318.2025.2609912
+[wang-2021]: https://doi.org/10.3389/fpsyg.2021.565202
+[kappes-2011]: https://www.psy.uni-hamburg.de/en/arbeitsbereiche/paedagogische-psychologie-und-motivation/personen/oettingen-gabriele/dokumente/kappes-oettingen-2011.pdf
+[oettingen-2012]: https://www.tandfonline.com/doi/abs/10.1080/10463283.2011.643698
+[hershfield-2011]: https://doi.org/10.1111/j.1749-6632.2011.06201.x
+[unesco-2024]: https://www.unesco.org/en/articles/ai-competency-framework-students

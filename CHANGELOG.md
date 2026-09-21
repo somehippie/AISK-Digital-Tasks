@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.6.4 | 2026-09-20 | Current. Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
+| 0.7 | 2026-09-20 | Current. Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
+| 0.6.4 | 2026-09-20 | Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
 | 0.6.3 | 2026-09-20 | Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
 | 0.6.2 | 2026-09-20 | **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
 | 0.6.1 | 2026-09-20 | **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
@@ -36,6 +37,57 @@ Do not move a published tag to close that gap. A tag that has been pushed is a
 fixed address, and repointing it breaks anyone who pinned a raw URL to it,
 which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
+
+## Sources
+
+### 0.7 — the citation apparatus
+
+Mechanical pass. Deliberately carries no change to any argument, so the diff
+can be read as plumbing rather than searched for hidden substance.
+
+**Named reference keys, not numbers.** Every load-bearing claim now links to its
+source through a Markdown reference key — `[19 percentage points][dellacqua-2026]`
+rather than `[5]`. Numbered markers renumber silently when a source is inserted,
+in a document Part 8 commits to re-verifying periodically. Named keys cannot
+drift, and a linked phrase reads as journalism rather than academic apparatus,
+which suits a curriculum written for people who distrust institutional voice.
+
+**Source notes grouped by how fast each row goes wrong.** Part 8 says the
+accuracy obligation should be budgeted rather than discovered. Dating every row
+to the same re-check would have recorded history and created a cliff: twenty-six
+rows falling due at once. They are staggered instead.
+
+| Horizon | Rows | What is in it |
+|---|---|---|
+| 2027-01 | 5 | Water and energy figures. These moved by two orders of magnitude in three years |
+| 2027-06 | 4 | Survey percentages, which age on a predictable annual cycle |
+| 2027-09 | 6 | Live web pages, health advisories and courses that change without notice |
+| 2029 | 17 | Peer-reviewed papers, books and published frameworks |
+
+The 2027 maintenance job is therefore five rows in January and a handful more
+across the year, not twenty-six in one sitting. That is a commitment a person
+can keep.
+
+**Six previously uncited sources added.** Docebo, Li et al., Kirkpatrick,
+OpenAI's water statement, the IEA, and the *Washington Post* / UC Riverside
+analysis were all cited in the body and absent from Source notes.
+
+**Every key was checked for resolution after the pass.** A mistyped key that
+happens to match another entry would be citation drift introduced by the pass
+built to prevent it, and it would survive every check except following the link.
+The check found two keys used but undefined — the two book citations, which have
+no URL — and they were returned to plain text. Final state: 29 definitions, 29
+used, none undefined, none unused, no two keys pointing at one target.
+
+**Part 7 names its leading indicators.** The week-four checkpoint and the
+session 3 artifact already were leading indicators in the New World Kirkpatrick
+sense; the design predated the vocabulary. Naming it costs a sentence and makes
+the measurement design legible to anyone who evaluates training professionally,
+which is the reader a library or workplace programme routes this to.
+
+**Verification complete: 26 sources.** The last five — NCOA, McAfee, Google AI
+Essentials, Elements of AI and Anthropic's AI Fluency framework — were verified
+clean, as were UNESCO, Burnett & Evans and Kirkpatrick before them.
 
 ## Corrections
 
