@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.6.3 | 2026-09-20 | Current. Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
+| 0.6.4 | 2026-09-20 | Current. Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
+| 0.6.3 | 2026-09-20 | Source-note precision: EY fieldwork dates alongside the publication date, Brynjolfsson volume and year, Dell'Acqua open-access working paper. Adds a severity breakdown to the corrections below. |
 | 0.6.2 | 2026-09-20 | **Correction release.** Part 3's water figures were wrong about their own provenance and internally inconsistent; a study was attributed to the wrong lead author. See "Corrections" below. |
 | 0.6.1 | 2026-09-20 | **Correction release.** Two factual errors found in the published text during source verification: a misread of De Freitas et al. that an instruction rested on, and a sample size stated for a subgroup it did not apply to. See "Corrections" below. |
 | 0.6 | 2026-09-20 | Adds a fake-citation calibration probe to Session 3, giving the session a near-guaranteed trigger instead of relying on a naturally occurring fabrication; adds "The two audiences are one trajectory" to Part 2, a four-phase adoption model drawn from the author's own path with its n=1 limits stated; adds a Part 8 open question on whether phase D (publishing, tooling, building) is a ninth session, a separate kit, or out of scope. Repository gains plain-text access routes for AI assistants. |
@@ -37,6 +38,39 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Corrections
+
+### 0.6.4 — one citation covering two claims
+
+Part 1 asserted that positive fantasy reduces effort **and** that this had been
+"replicated over 25 years," under a single citation to Oettingen's 2014 book.
+The first half is a experimental result. The second is a claim about a research
+programme's durability, which no single study can support and which nothing in
+the document sourced.
+
+Both halves are now anchored. The effect is Kappes & Oettingen (2011),
+"Positive fantasies about idealized futures sap energy." The programme-level
+claim is Oettingen (2012), "Future thought and behaviour change," a 63-page
+review of the fantasy-realization literature that states the finding directly.
+The bare "25 years" is gone, replaced by two citations a reader can open.
+
+A compound claim under one citation is how a sourced assertion and an unsourced
+one travel together without either being examined.
+
+### Verified clean and worth recording
+
+Not every check produces a correction, and a verification pass that only reports
+its catches gives a false picture of the document.
+
+| Source | Checked | Result |
+|---|---|---|
+| UNESCO AI Competency Framework | Four dimension names, three level names | Exact, British spelling included. The README's alignment claim and all eight session tags hold |
+| Burnett & Evans, *Designing Your Life* | Six named concepts used as vocabulary across Sessions 4, 5 and 7 — Odyssey Plans, gravity problem, dysfunctional belief, prototype conversation, prototype experience, Good Time Journal | All six are the book's own terms. The gravity-problem gloss matches the source nearly verbatim |
+| Kirkpatrick | That Level 3 is Behavior and Level 4 is Results | Correct. Part 7's mapping holds |
+| Dell'Acqua publication year | Flagged internally as possibly wrong | The document was right. The 2025 in the DOI is a manuscript number |
+
+Terminology and framework names carry the same risk as figures: a facilitator
+says them aloud and a learner may look them up. These were checked for that
+reason and none needed changing.
 
 ### What was actually found, by severity
 
