@@ -17,22 +17,53 @@ This is an eight-session, research-grounded course for AI *skeptics*, AI *beginn
 
 ## AI & LLM access
 
-If you want to read this with an AI assistant rather than by yourself, paste one of these URLs straight into the chat. They serve plain text with no site layout around it, which is what these tools read best and what a beginner can copy without anything going wrong.
+You can work through this curriculum with an AI assistant. **The method matters more than the tool**, because the two obvious approaches give very different results.
+
+### Option A — copy the text in (recommended)
+
+Open the raw file, select all, copy, paste into the chat:
+
+```
+https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/docs/ai-starter-kit.md
+```
+
+`Ctrl+A` then `Ctrl+C` on Windows, `Cmd+A` then `Cmd+C` on a Mac. That page is plain text with no site layout around it, so what you paste is the document and nothing else.
+
+This puts the whole curriculum — about 79 KB, comfortably inside current context windows — into the model's working memory in one go. Nothing is fetched, summarized or truncated on the way in, which is what makes the difference: the assistant is reading the document rather than a description of it.
+
+### Option B — import the repository
+
+Some assistants can pull a repository in directly, which keeps every file in view rather than just the curriculum. In Gemini this is **+ → Import code**; other tools have an equivalent. Give it:
+
+```
+https://github.com/somehippie/ai-starter-kit-digital-tasks
+```
+
+Use this if you want the changelog and contribution guidance alongside the curriculum. Option A is enough for reading the course itself.
+
+### What to avoid, and why
+
+**Pasting the URL on its own and asking the assistant to go read it.** Unless the tool has a genuine browsing extension, a link in a prompt is handled by a fetcher that will often summarize a long page rather than load it, truncate it partway, or fail quietly and answer from memory instead. You get an answer that sounds like the document and is not checkable against it. Copy the text in, or import the repository.
+
+**A `404` on `/llms.txt` does not mean the repository is unreachable.** Some tools probe for that file by convention before reading a repository. It is deliberately not here — see the v0.7 entry in [CHANGELOG.md](CHANGELOG.md) for the evidence behind dropping it — so a 404 there is the expected result and says nothing about the rest. Every link on this page resolves anonymously with no token.
+
+### Other files
 
 | What | URL to paste |
 | --- | --- |
 | The full curriculum | `https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/docs/ai-starter-kit.md` |
 | Version history | `https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/CHANGELOG.md` |
+| Contribution guidance | `https://raw.githubusercontent.com/somehippie/ai-starter-kit-digital-tasks/main/CONTRIBUTING.md` |
 
-Those links track the current version. To pin one so it cannot change under you later, swap `main` for a release tag, for example `v0.6`.
+Those track the current version. To pin one so it cannot change under you later, swap `main` for a release tag, for example `v0.9.2`.
 
-A prompt that works, if you want one:
+### A prompt that works, if you want one
 
-> Read this curriculum and tell me which of the eight sessions is most relevant to someone who <describe yourself here>. Quote the part you're basing that on so I can check it against the source.
+> Read this curriculum and tell me which of the eight sessions is most relevant to someone who &lt;describe yourself here&gt;. Quote the part you're basing that on so I can check it against the source.
 
 Asking for the quote is not decoration. It is the habit the curriculum teaches in Session 3, and this is a reasonable place to start practicing it: open the document yourself and confirm the quoted passage exists and says what the summary claims. A tool that summarizes this document while inventing a passage is demonstrating the exact failure the document is about.
 
-Two caveats worth knowing before you rely on a summary. The curriculum is roughly 45 KB, which fits comfortably in current context windows but is long enough that a tool asked for "the main points" will flatten the reasoning that makes the recommendations make sense. And the statistics carry a short shelf life, flagged in the document itself; an assistant repeating them to you months from now will not know they have moved.
+Two caveats before you rely on a summary. The curriculum is long enough that a tool asked for "the main points" will flatten the reasoning that makes the recommendations make sense — the reasoning is most of the value, and it is the first thing a summary drops. And the statistics carry a short shelf life, flagged in the document itself and scheduled for re-checking in its Source notes; an assistant repeating them to you a year from now will not know they have moved.
 
 ## Who this is for
 

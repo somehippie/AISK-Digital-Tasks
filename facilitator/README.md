@@ -38,6 +38,21 @@ scheduled. Anyone running 1C from the curriculum alone is testing it, and
 feedback on it is worth more than feedback on the two ramps that have at least
 been reasoned against a real audience.
 
+## Reading the curriculum with an AI assistant
+
+If you are preparing a session with an assistant's help, copy the text of
+`docs/ai-starter-kit.md` into the chat rather than pasting its URL and asking
+the assistant to go and read it. A link in a prompt is usually handled by a
+fetcher that summarizes or truncates a long page, and you end up preparing
+from a description of the curriculum rather than the curriculum. The README's
+"AI & LLM access" section has both methods.
+
+This matters more for a facilitator than for a learner. The parts a summary
+drops first are the design rationale in Parts 1 and 2 and the boundaries in
+Session 3 — which are precisely the parts that tell you why a session is built
+the way it is, and therefore what you can safely change when a room does not
+respond the way the document expects.
+
 ## If you want to run this before then
 
 You can, from the curriculum document alone. Part 4 specifies every session,

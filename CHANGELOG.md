@@ -484,6 +484,41 @@ produce a caught fabrication rather than a summary of the concept.
 
 ## Repository history
 
+### 2026-09-21, AI access guidance rewritten
+
+A report claimed the raw links were unreachable, diagnosing either an unpushed
+change or a private repository. Both were checked and both were wrong: `main`
+was current, `isPrivate` was `false`, and the raw curriculum URL returned HTTP
+200 at 79,134 bytes anonymously, as did the changelog, contribution guidance,
+facilitator stub, tag-pinned URLs and the `?raw=true` form.
+
+The one URL that does 404 is `/llms.txt`, which was deliberately removed in
+v0.7. **Whether anything actually requested it is unknown** — no request log was
+available, and attributing the report to that probe would be a guess. So the
+README documents the behaviour rather than the cause: a 404 there is the
+expected result and says nothing about the rest of the repository.
+
+The guidance was rewritten around a distinction the previous version missed.
+Pasting a URL into a prompt and pasting the document's text are not two ways of
+doing the same thing. Unless a real browsing extension is present, a link is
+handled by a fetcher that may summarize a long page, truncate it, or fail
+quietly and answer from memory — producing an answer that sounds like the
+document and cannot be checked against it. Copying the text in, or importing
+the repository, loads the actual document.
+
+Two options are now given explicitly: copy the raw text in (recommended, and
+the whole curriculum fits in current context windows), or import the repository
+through a native extension. The facilitator stub carries a shorter version, with
+the note that summaries drop the design rationale and session boundaries first
+— the parts that tell a facilitator what they can safely change.
+
+Also corrected: the curriculum was described as "roughly 45 KB," accurate when
+written and stale by 34 KB after v0.6 through v0.9.2. The figure is now
+expressed in a form that does not need maintaining. `llms.txt` was not
+reinstated; the v0.7 evidence for dropping it stands.
+
+
+
 ### 2026-09-20, published
 
 First published to GitHub as `somehippie/AISK-Digital-Tasks`, public, CC BY 4.0.
