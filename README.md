@@ -2,7 +2,7 @@
 
 A curriculum for people who hate AI or think it's too complicated.
 
-This is an eight-session, research-grounded course for AI *skeptics* and AI *beginners* — two different audiences with two different entry ramps that converge by session two. It teaches verification and calibration before productivity, treats literacy as self-defense first and efficiency second, and is built to actively guard against the failure modes it introduces (sycophancy, cognitive debt, substitution of AI for human contact) rather than assume good faith from the tools it teaches.
+This is an eight-session, research-grounded course for AI *skeptics*, AI *beginners*, and people who already use AI a little and have quietly stopped getting more out of it — three audiences with three different entry ramps that converge by session two. It teaches verification and calibration before productivity, treats literacy as self-defense first and efficiency second, and is built to actively guard against the failure modes it introduces (sycophancy, cognitive debt, substitution of AI for human contact) rather than assume good faith from the tools it teaches.
 
 📄 **[Read the full curriculum](docs/ai-starter-kit.md)**
 
@@ -37,6 +37,7 @@ Two caveats worth knowing before you rely on a summary. The curriculum is roughl
 ## Who this is for
 
 - **Facilitators** running a group or one-on-one AI-literacy session for adults who are skeptical of, or overwhelmed by, AI tools
+- **Curious existing users** who use AI for a handful of small things and suspect there is more there. Session 1C is the entry ramp for this, and it is **published untested** — no learner has run it yet
 - **Self-learners** who want a structured, evidence-based on-ramp rather than a tool tour — with one caveat worth reading first: the curriculum is specified as a *facilitated* course, and the solo version is untested. Four steps are marked **[F]** in the document because they depend on a live facilitator, three of them on simply having a witness. Part 8 sets out what is unresolved about removing that, including the possibility that the solo build is a substantially weaker intervention rather than the same one delivered differently. You can absolutely work through this alone. You should know that nobody has yet measured what that costs.
 - Anyone adapting AI-literacy material for a community group, library program, or workplace training who wants something more rigorous than a generic vendor deck
 
@@ -56,7 +57,7 @@ Two caveats worth knowing before you rely on a summary. The curriculum is roughl
 
 ## Status
 
-Version 0.8. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
+Version 0.9. This is an active design document, not a finished product — Part 8 lists open design questions the author is still working through, and the curriculum has not yet completed a full facilitator pilot. Treat figures and cited statistics as accurate as of the version date; several (energy/water-per-query estimates in particular) are explicitly flagged in the document as having a short shelf life and needing periodic re-verification.
 
 ## Contributing
 

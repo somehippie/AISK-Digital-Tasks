@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.8 — September 2026.
+Version 0.9 — September 2026.
 
 ---
 
@@ -38,19 +38,24 @@ So the life story stays — it is the right destination and the right source of 
 
 ---
 
-## Part 2 — The two audiences are not the same audience
+## Part 2 — The learners are not one audience
 
-Merging them produces a curriculum that condescends to the first group and overwhelms the second. They need different entry ramps and converge at session two.
+Merging them produces a curriculum that condescends to the first, overwhelms the second and bores the third. They need different entry ramps and converge at session two.
 
-| | The refuser | The overwhelmed |
-|---|---|---|
-| Actual objection | Moral and political. Jobs, artists, environment, surveillance, slop, concentration of power | Practical and identity-based. "I'm not technical." "I'll do it wrong." "It's already too late to start" |
-| What a bad kit does | Tries to argue them out of it, or opens with benefits. Both read as sales and confirm their prior | Shows them twelve tools. Confirms the complexity fear and produces paralysis |
-| What actually opens the door | Giving their objection accurate ammunition. Most of what they've heard is wrong in *both* directions, and the corrections cut both ways | Removing choice. One tool, one task, one sitting, done today |
-| Entry ramp | Session 1A — Standing | Session 1B — One thing |
+Three ramps, not three tracks. The distinction matters: after session two the course is identical for everyone, and the ramps exist only because the first hour has to start where the learner actually is.
+
+| | The refuser | The overwhelmed | The newly interested |
+|---|---|---|---|
+| Where they are | Phase A of the arc below. Opinions formed from coverage rather than contact | Phase A or B, with the barrier inside rather than outside | **Phase B.** Has used it, liked it, changed nothing |
+| Actual objection | Moral and political. Jobs, artists, environment, surveillance, slop, concentration of power | Practical and identity-based. "I'm not technical." "I'll do it wrong." "It's already too late to start" | **None.** That is the difficulty. Nothing is wrong, so nothing moves |
+| What a bad kit does | Tries to argue them out of it, or opens with benefits. Both read as sales and confirm their prior | Shows them twelve tools. Confirms the complexity fear and produces paralysis | Shows them more small wins. Confirms the ceiling and calls it progress |
+| What actually opens the door | Giving their objection accurate ammunition. Most of what they've heard is wrong in *both* directions, and the corrections cut both ways | Removing choice. One tool, one task, one sitting, done today | A task they would not have attempted. The limit is what they thought to ask, not what the tool does |
+| Entry ramp | Session 1A — Standing | Session 1B — One thing | Session 1C — Ceiling |
 | Load-bearing evidence | [De Freitas et al., *Nature Human Behaviour* (2023)][defreitas-2023]: resistance drops when users are given a genuine measure of control — with the paper's own bound attached, that the effect plateaus and too much control degrades decision accuracy. So the move is a small control actually exercised, not a large one offered | [Brynjolfsson, Li & Raymond][brynjolfsson-2025] (*QJE*, 2025): novice and lower-skilled support agents gained ~34% while the most experienced gained near zero. [Dell'Acqua et al.][dellacqua-2026]: below-average BCG consultants gained 43% against 17% for above-average performers |
 
 The single most useful sentence for the overwhelmed learner is a research finding, not a reassurance: **in the studies that exist, the people who gain most from these tools are the ones who start with the least expertise.** Being behind is the advantage, not the disqualification.
+
+The single most useful move for the newly interested learner is to show them their own list. Asked what they use it for, they produce four or five small things and recognize, without being told, that the list describes their imagination rather than the tool. Nothing in this kit needs to argue that point; the list makes it.
 
 The single most useful move for the refuser is to hand them the honest version of their own argument, including the parts that are stronger than they knew and the parts that are weaker.
 
@@ -58,7 +63,7 @@ The single most useful move for the refuser is to hand them the honest version o
 
 ### Different ramps onto the same arc
 
-The ramps differ because the objections genuinely differ, which is the whole point of the table above. What the two audiences share is not a state of mind but a position: both are early on the same long arc, at different points on it, and a facilitator who knows the shape of that arc knows what the next move is rather than only what the current objection is.
+The ramps differ because the starting points genuinely differ, which is the whole point of the table above — and the third ramp makes that sharper rather than softer, because its learner has no objection at all. Having nothing against the tool turns out to be its own obstacle, and not one the first two ramps were built to move. What the two audiences share is not a state of mind but a position: both are early on the same long arc, at different points on it, and a facilitator who knows the shape of that arc knows what the next move is rather than only what the current objection is.
 
 What follows is one person's version of a number already on this page. Part 1's EY/AARP finding is that satisfaction runs high among people who have crossed the threshold and the whole problem is the crossing; the arc below is what that looks like from inside a single life. It illustrates that finding. It does not establish anything, and nothing in the curriculum rests on it.
 
@@ -133,9 +138,39 @@ The reframe delivered up front: the research says people with the least prior ex
 
 Artifact: one completed real task, plus the **day-one baseline** described below. *(Apply — techniques and applications)*
 
+### Session 1C — Ceiling (the newly interested)
+
+**Untested.** This ramp has not been run with a learner. It is published at the
+same confidence as the solo-learner path in the README: reasoned from the
+document's own evidence, not validated by a pilot. Treat it as a draft you are
+helping to test.
+
+The learner already uses these tools and likes them well enough. They are not
+afraid, and they do not need convincing. They are stalled — which looks like
+nothing at all from the outside, and is the most common place to be. This is
+phase B from the arc above: tried it, found it fine, changed nothing.
+
+Start by making the ceiling visible. Ask what they currently use it for, and write the list where they can see it. It will be four or five things, all small, all finished in one exchange — drafting, summarizing, quick questions, tidying something they already wrote. **That list is not a record of what the tool can do. It is a record of what they thought to ask.**
+
+**Then the exercise, which is the inverse of 1B's.** Session 1B has the learner pick something they have been avoiding, because that learner needs to discover they can do it at all. This learner discovered that months ago, on small things, and stopped there. So the instruction is different: **name three things you do that you have never thought to bring to it.** Not things you tried that failed. Things it never occurred to you to raise. Then take the largest.
+
+**[F]** The instructor's job here is to refuse the first answer. The first thing named is almost always still inside the ceiling — another small task, slightly larger. Keep pushing until the learner names something that would take them a whole afternoon, or something they keep not starting because beginning it is too tedious. That is the target. **The session has not worked unless the task is bigger than the learner would have attempted on their own.** A comfortable task produces a pleasant session and no crossing.
+
+Human-first applies here unchanged, and this is the audience most likely to skip it. Before anything is opened, the learner spends twenty minutes on paper: what a good outcome looks like, and what their first move would be if they had to do the whole thing unaided. The learner who has been getting small wins from one-line prompts will want to type the task in and see what comes back. That habit is what built the ceiling.
+
+Then bring the tool, and work the thing through inside the session.
+
+**The reframe that carries the rest of the course.** For the refuser, knowing where the model breaks is self-defense. For this learner it is **speed**. Calibration is not a moral posture; it is how you stop burning an afternoon on something the tool was never going to do. That is a change of motivation, not a softening of content — and it is the honest reframe rather than a convenient one, because [Lee et al.][lee-2025] found that confidence in the AI predicts *less* critical thinking while confidence in one's own judgment predicts more. Confidence in the tool is precisely this learner's characteristic failure. Same exercises as every other ramp, different reason to want them.
+
+**The ledger, framed for this audience.** 1C gets Part 3 in full, for a different reason than 1A does. This is the learner who will start recommending these tools to other people. The first time they repeat the bottle-of-water figure to someone who has read the measured number, they lose the argument and some standing with it. The ledger is not the case against. It is what stops them being confidently wrong in public about something they are enthusiastic about. *(That this learner becomes an advocate is a design judgment about who recommends software to their friends, not a research finding, and should not be repeated as one.)*
+
+**Say the risk out loud, to the learner and in the facilitator's notes.** This ramp recruits the highest-risk learner in the kit. Every loop in the Part 5 field guide lands hardest on someone with no native skepticism, and Part 7 treats rising self-reported reliance as evidence that the course did harm. A track for enthusiasts that skips the verification spine is the vendor deck this curriculum was written against — and the temptation to build one is strongest here, because this learner is the most enjoyable to teach.
+
+Artifact: one completed task the learner would not have attempted alone, kept together with the ceiling list written at the start, so the gap between them stays visible. Plus the **day-one baseline** described below, which matters more for this learner than for the other two, not less. *(Apply — techniques and applications)*
+
 ### The day-one baseline
 
-Both entry ramps close with the same four questions, asked before the learner has formed any opinion the course caused. Part 7's counter-metrics are meaningless without them, and they cannot be collected retroactively — a learner in week eight cannot accurately reconstruct how much they relied on anything in week one.
+All three entry ramps close with the same four questions, asked before the learner has formed any opinion the course caused. Part 7's counter-metrics are meaningless without them, and they cannot be collected retroactively — a learner in week eight cannot accurately reconstruct how much they relied on anything in week one.
 
 | Question | Captures |
 |---|---|
@@ -146,7 +181,7 @@ Both entry ramps close with the same four questions, asked before the learner ha
 
 Recorded by the learner, kept by the learner, sealed until session eight. Nobody grades it.
 
-### Session 2 — Find the edge (both tracks converge)
+### Session 2 — Find the edge (all three ramps converge)
 
 The learner picks a domain where they are genuinely expert. Not their job title — a thing they actually know. Delta fishing conditions, a specific engine, wound care, drywall, a language, a neighborhood's history.
 
@@ -292,9 +327,11 @@ Artifact: one prototype scheduled with a date on it. *(Create — AI system desi
 | Real conversations that mattered | The counter-metric that overrides the others. If this fell, the course did net harm to that learner regardless of everything else on the page |
 | How much you trust these tools | Expect it to have dropped. See below |
 
-**Then the return.** Refuser-track learners annotate the objection they wrote in 1A — what they still believe, what changed, what got *worse* on inspection. The 1B track never wrote one, having entered through the task ramp instead, so their return is the trust question: what did you think these tools were in week one, what do you think now, and what specifically moved you. Same exercise, different artifact, and the 1B version is often the more honest of the two because it was answered before the learner had a position to defend.
+**Then the return, which takes the shape of whichever ramp they entered through.** Refuser-track learners annotate the objection they wrote in 1A — what they still believe, what changed, what got *worse* on inspection. The 1B track never wrote one, having entered through the task ramp instead, so their return is the trust question: what did you think these tools were in week one, what do you think now, and what specifically moved you. The 1C track returns to its ceiling list — the four or five small things they said they used it for in week one — and answers a narrower question: which of these would you still describe the same way, and what is on the list now that you would not have put there. Same exercise, three artifacts.
 
-Expect and normalize an acceptance dip in both tracks. [Li et al.][li-2025] found an inverse relationship between AI literacy and AI acceptance — lower literacy increases the sense of mystery around AI behavior and raises acceptance, and demystification reduces it. Learners will often like these tools somewhat less at the end than the middle, and will be better at using them. Say this out loud in session one so it reads as predicted rather than as failure, and say it again here while the numbers are on the table, because a learner watching their own trust score fall will read it as the course having failed them unless someone said otherwise first.
+The 1B version is often the most honest of the three, because it was answered before the learner had a position to defend. The 1C version is the most checkable, because the ceiling list is a written record of what the learner believed the tool could do, made before the course could influence it.
+
+Expect and normalize an acceptance dip on all three ramps. [Li et al.][li-2025] found an inverse relationship between AI literacy and AI acceptance — lower literacy increases the sense of mystery around AI behavior and raises acceptance, and demystification reduces it. Learners will often like these tools somewhat less at the end than the middle, and will be better at using them. Say this out loud in session one so it reads as predicted rather than as failure, and say it again here while the numbers are on the table, because a learner watching their own trust score fall will read it as the course having failed them unless someone said otherwise first.
 
 Then the operating loop they leave with, which is the whole method compressed: **think first, then ask, then verify, then act, then check what actually happened.** Ninety days out, revisit the three plans and re-ask the reliance and conversation questions a third time. Plans that survive contact get more resource. Plans that don't get retired without ceremony.
 

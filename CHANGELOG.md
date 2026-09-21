@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.8 | 2026-09-20 | Current. Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
+| 0.9 | 2026-09-20 | Current. Adds Session 1C, a third entry ramp for the learner who already uses AI a little and has stalled. Published **untested**. Part 2 retitled and its table extended to three audiences. |
+| 0.8 | 2026-09-20 | Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
 | 0.7.1 | 2026-09-20 | Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
 | 0.7 | 2026-09-20 | Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
 | 0.6.4 | 2026-09-20 | Splits a compound Oettingen claim that carried one citation for two assertions, and records Burnett & Evans, Kirkpatrick and UNESCO as verified clean. |
@@ -41,6 +42,68 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Curriculum
+
+### 0.9 — Session 1C, a third entry ramp
+
+**Published untested.** No learner has run it. It sits at the same confidence
+as the solo-learner path: reasoned from the document's own evidence, not
+validated by a pilot, and marked as such in the session, the README and the
+facilitator stub.
+
+**Who it is for.** The learner at phase B of the adoption arc — has used these
+tools, liked them well enough, and changed nothing. Part 2 already identified
+that stall as long and as the real blocker, then offered no ramp onto it. The
+two existing ramps both assume something is wrong: 1A that the learner objects,
+1B that the learner is afraid. This learner has no objection and no fear, which
+is precisely why nothing moves.
+
+**The design distinction that keeps it from being a friendlier 1B.** Session 1B
+has the learner pick a task they have been avoiding, because that learner needs
+to discover they can do it at all. 1C's learner discovered that months ago, on
+small things, and stopped. So the instruction inverts: name three things you
+have never thought to bring to it, and take the largest. The session opens by
+writing down what the learner currently uses it for — a list that records what
+they thought to ask rather than what the tool does — and the facilitator is
+instructed to refuse the first task named, because the first one is always
+still inside the ceiling. **The session has not worked unless the task is
+bigger than the learner would have attempted alone.** It breaks a ceiling, not
+a fear.
+
+**Nothing in the spine is softened.** Human-first, calibration and verification
+arrive unchanged; only the motivation is rewritten. For the refuser, knowing
+where the model breaks is self-defense. For this learner it is speed — you stop
+burning afternoons on things the tool was never going to do. That reframe is
+honest rather than convenient: Lee et al. found confidence in the AI predicts
+*less* critical thinking and confidence in one's own judgment predicts more,
+and confidence in the tool is this learner's characteristic failure.
+
+**The ledger, same table, different reason.** 1C gets Part 3 in full because
+this is the learner who starts recommending these tools to other people. The
+first time they repeat the bottle-of-water figure to someone who has read the
+measured number, they lose the argument and some standing with it. Framed as
+what keeps them from being confidently wrong in public, not as the case
+against. That this learner becomes an advocate is marked on the page as a
+design judgment rather than a finding.
+
+**The risk is stated in the document, not only here.** This ramp recruits the
+highest-risk learner in the kit. Every Part 5 loop lands hardest on someone
+with no native skepticism, and Part 7 treats rising reliance as evidence of
+harm. A track for enthusiasts that skips the verification spine is the vendor
+deck this curriculum was written against, and the temptation is strongest here
+because this learner is the most enjoyable to teach.
+
+**Structural consequences.** Part 2 is retitled "The learners are not one
+audience" — the old title could not survive a third. Its table gains a column
+and a new first row naming each audience's phase on the arc. The day-one
+baseline now closes all three ramps. Session 2's heading reads "all three ramps
+converge." Session 8's return takes three shapes: the 1A objection, the 1B
+trust question, and for 1C the ceiling list, which is the most checkable of the
+three because it is a written record of what the learner believed before the
+course could influence it. One artifact, one **[F]** mark, tagged *(Apply —
+techniques and applications)* consistently with 1B.
+
+**No new sources.** Everything cited was already in the apparatus. The one
+claim without a source is labelled as design judgment in the text.
 
 ### 0.8 — the fourth verification habit
 

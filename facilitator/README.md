@@ -31,6 +31,13 @@ Shipping late is the cheaper mistake here.
 - The Good Time Journal template assigned at Session 2
 - Whatever the first run proves needs to change, which is the point of waiting
 
+**Session 1C is the exception, and stays one.** It was added in v0.9 as a third
+entry ramp and has not been run with anyone. Its scripts will not ship with the
+rest: Track A tests 1A, so a 1C pilot is a separate run that has not been
+scheduled. Anyone running 1C from the curriculum alone is testing it, and
+feedback on it is worth more than feedback on the two ramps that have at least
+been reasoned against a real audience.
+
 ## If you want to run this before then
 
 You can, from the curriculum document alone. Part 4 specifies every session,
