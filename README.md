@@ -37,9 +37,11 @@ Paste is the fallback rather than the first move for one reason: this is a long 
 
 **So check that it landed, whichever route you used.** Ask:
 
-> Before we start — what is the final section of this document called, and what is the last entry in it?
+> Before we start — in the Source notes at the end, what is the last row of the final table?
 
-Then scroll to the bottom of the file yourself and see whether that is what it says. If the assistant cannot tell you, or tells you something that is not there, it does not have the whole document and nothing it says next is worth much.
+Then open that table in the file yourself and see whether that is what it says. If the assistant cannot tell you, or tells you something that is not there, it does not have the whole document and nothing it says next is worth much.
+
+The question names the table on purpose. "What is at the end of the document?" has more than one honest answer — the last section of prose, the last row of a table, the link definitions below it — and a check that can report a mismatch when nothing is wrong is worse than no check, because it fails on the reader who was told to trust it.
 
 Deliberately, the answer is not printed here. Checking it against the source rather than against this page takes five seconds, is the move Session 3 teaches, and works on any version of the document — including the ones written after this sentence.
 

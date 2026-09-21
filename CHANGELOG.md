@@ -525,8 +525,14 @@ produces the failure this section warns about *through the route it
 recommends*, and a reader has no way to notice. An attachment either arrives
 whole or visibly fails.
 
-A verification step was added for either route: ask the assistant to name the
-final section and its last entry, then check the file yourself. The answer is
+A verification step was added for either route: ask the assistant for the last
+row of the final table in Source notes, then check the file yourself. The
+question names the table because the first draft did not, and "what is at the
+end of the document?" has several honest answers — the last prose section, the
+last table row, the reference-link definitions below it. An assistant and a
+reader would have picked different ones and read the mismatch as a failed load.
+A check that fires a false alarm is worse than no check, because it fails
+precisely on the reader who was told to trust it. The answer is
 deliberately not printed in this README — checking against the source rather
 than against a page that can go stale is the move Session 3 teaches, and it
 works on versions of the document written after the instruction. The first
