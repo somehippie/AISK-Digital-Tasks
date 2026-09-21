@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.9 — September 2026.
+Version 0.9.1 — September 2026.
 
 ---
 
@@ -122,13 +122,34 @@ Mapped against the [UNESCO AI Competency Framework's][unesco-2024] four dimensio
 
 The levels are **per competency, not a course-wide ladder**, and the tags will look non-monotonic as a result. Session 1B is Apply on techniques while session 2 is Understand on human-centred mindset — that is not a regression, it is a different dimension starting from the bottom. The sequence is deliberate: a learner who can operate the tool but cannot locate its limits is exactly the mis-calibrated profile the Lee et al. and Dell'Acqua findings warn about. Applying before understanding, in that order, on those two dimensions, is the point.
 
+### The day-one baseline
+
+**Taken before the ramp begins, not after it.** Ten minutes, cold, at the very start of the learner's first session, before anything else happens — before the ledger in 1A, before the task in 1B, before the ceiling list in 1C.
+
+The placement is the whole point, and it is easy to get wrong because the four questions read like a closing exercise. Two things break if they move to the end of the ramp.
+
+**The usage count gets primed.** Session 1C opens by having the learner inventory exactly what they currently use AI for. Ask question one after that and you get a carefully reconstructed number. Ask it cold and you get the honest guess. Session eight re-asks it cold, so a primed week-one figure measured against a cold week-eight figure shows a decline that never happened.
+
+**Trust gets biased by ramp, in opposite directions.** A 1A learner who has just spent twenty minutes marking a ledger of AI's documented failures will score question four low. A 1C learner who has just finished something bigger than they would have attempted alone will score it high. Neither number is about the learner. Part 7 compares this figure across ramps, so a baseline taken at the close would be measuring the ramps rather than the people who came through them.
+
+Part 7's counter-metrics are meaningless without these four, and they cannot be collected retroactively — a learner in week eight cannot accurately reconstruct how much they relied on anything in week one.
+
+| Question | Captures |
+|---|---|
+| In the last seven days, how many times did you use an AI tool for anything? | Adoption baseline for the week-four unprompted-use check |
+| Name three tasks you currently do entirely unaided that you'd be uncomfortable doing without help | Reliance baseline. Re-asked at ninety days. If any have migrated, that is cognitive debt with a name attached |
+| In the last seven days, how many real conversations did you have about something that mattered to you? | Substitution baseline. The number that must not fall |
+| On a scale you define yourself, how much do you trust these tools right now? | Paired with the session-eight re-ask. Expect the dip, and expect it to look like failure if you have no baseline to compare it against |
+
+Recorded by the learner, kept by the learner, sealed until session eight. Nobody grades it.
+
 ### Session 1A — Standing (refusers)
 
 The learner writes their objection in full, unedited, before any tool is opened. Then they are handed the honest ledger and asked to mark which rows strengthened their position and which weakened it. **[F]** The instructor's job is to refuse to resolve it — to sit in the room while a skeptic states their case and neither argue nor agree. A document cannot decline to rebut you, and a learner reading alone will supply the rebuttal themselves.
 
 The explicit contract: **you do not have to end this course liking AI.** You have to end it able to tell when it is lying to you. That is a skill worth having whether you use these tools daily or refuse them permanently, because they are being used *on* you either way — in hiring, in credit, in claims adjudication, in what you see, and, increasingly, in who calls pretending to be someone you love. Literacy is self-defense before it is productivity.
 
-Artifact: a one-page written objection they will revisit in session eight, plus the **day-one baseline** described below. *(Understand — human-centred mindset, ethics)*
+Artifact: a one-page written objection they will revisit in session eight, plus the **day-one baseline** taken before the session started. *(Understand — human-centred mindset, ethics)*
 
 ### Session 1B — One thing (overwhelmed)
 
@@ -136,7 +157,7 @@ No tool tour. No feature list. One assistant, one real task they already have to
 
 The reframe delivered up front: the research says people with the least prior expertise gain the most. Then the load-bearing instruction — **you are not learning to prompt, you are learning to describe.** Context matters more than phrasing. Say who you are, what you're trying to do, what you've already tried, what "good" looks like, and what constraints are non-negotiable. That's it. There is no secret syntax.
 
-Artifact: one completed real task, plus the **day-one baseline** described below. *(Apply — techniques and applications)*
+Artifact: one completed real task, plus the **day-one baseline** taken before the session started. *(Apply — techniques and applications)*
 
 ### Session 1C — Ceiling (the newly interested)
 
@@ -166,20 +187,7 @@ Then bring the tool, and work the thing through inside the session.
 
 **Say the risk out loud, to the learner and in the facilitator's notes.** This ramp recruits the highest-risk learner in the kit. Every loop in the Part 5 field guide lands hardest on someone with no native skepticism, and Part 7 treats rising self-reported reliance as evidence that the course did harm. A track for enthusiasts that skips the verification spine is the vendor deck this curriculum was written against — and the temptation to build one is strongest here, because this learner is the most enjoyable to teach.
 
-Artifact: one completed task the learner would not have attempted alone, kept together with the ceiling list written at the start, so the gap between them stays visible. Plus the **day-one baseline** described below, which matters more for this learner than for the other two, not less. *(Apply — techniques and applications)*
-
-### The day-one baseline
-
-All three entry ramps close with the same four questions, asked before the learner has formed any opinion the course caused. Part 7's counter-metrics are meaningless without them, and they cannot be collected retroactively — a learner in week eight cannot accurately reconstruct how much they relied on anything in week one.
-
-| Question | Captures |
-|---|---|
-| In the last seven days, how many times did you use an AI tool for anything? | Adoption baseline for the week-four unprompted-use check |
-| Name three tasks you currently do entirely unaided that you'd be uncomfortable doing without help | Reliance baseline. Re-asked at ninety days. If any have migrated, that is cognitive debt with a name attached |
-| In the last seven days, how many real conversations did you have about something that mattered to you? | Substitution baseline. The number that must not fall |
-| On a scale you define yourself, how much do you trust these tools right now? | Paired with the session-eight re-ask. Expect the dip, and expect it to look like failure if you have no baseline to compare it against |
-
-Recorded by the learner, kept by the learner, sealed until session eight. Nobody grades it.
+Artifact: one completed task the learner would not have attempted alone, kept together with the ceiling list written at the start, so the gap between them stays visible. Plus the **day-one baseline** taken before the session started, which matters more for this learner than for the other two, not less — and which must be collected before the ceiling list, for the reason given above. *(Apply — techniques and applications)*
 
 ### Session 2 — Find the edge (all three ramps converge)
 

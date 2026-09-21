@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.9 | 2026-09-20 | Current. Adds Session 1C, a third entry ramp for the learner who already uses AI a little and has stalled. Published **untested**. Part 2 retitled and its table extended to three audiences. |
+| 0.9.1 | 2026-09-20 | Current. The day-one baseline is taken **before** the ramp, not at its close. The document had asserted both, and Session 1C made the contradiction consequential. |
+| 0.9 | 2026-09-20 | Adds Session 1C, a third entry ramp for the learner who already uses AI a little and has stalled. Published **untested**. Part 2 retitled and its table extended to three audiences. |
 | 0.8 | 2026-09-20 | Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
 | 0.7.1 | 2026-09-20 | Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
 | 0.7 | 2026-09-20 | Citation apparatus. Named reference keys at every load-bearing claim, Source notes rebuilt as tables grouped by re-verification horizon, six previously uncited sources added, and leading-indicator vocabulary named in Part 7. Verification of all 26 sources complete. No curriculum argument changed. |
@@ -42,6 +43,40 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Curriculum
+
+### 0.9.1 — the baseline was in two places at once
+
+One sentence asserted both halves of a contradiction: the ramps "close with"
+the four baseline questions, asked "before the learner has formed any opinion
+the course caused." The ramp *is* the course. The facilitator packet had
+resolved it the other way — step one, ten minutes, before the session begins —
+so the two documents had disagreed since before v0.5, and nothing depended on
+it until v0.9.
+
+Session 1C made it consequential in two directions.
+
+**The usage count gets primed.** Baseline question one asks how many times the
+learner used an AI tool in the last seven days. Session 1C *opens* by having
+them inventory exactly that. Asked afterwards it returns a carefully
+reconstructed number; asked cold it returns the honest guess. Session eight
+re-asks cold, so a primed week-one figure against a cold week-eight figure
+would show a decline that never happened.
+
+**Trust gets biased by ramp, in opposite directions.** Question four asks how
+much the learner trusts these tools right now. A 1A learner has just spent
+twenty minutes marking a ledger of documented failures. A 1C learner has just
+completed something bigger than they would have attempted alone. Taking the
+baseline at the close would deflate 1A's score and inflate 1C's, by the session
+rather than by the learner — and Part 7 compares this figure across ramps, so
+the comparison would have been measuring the ramps.
+
+The section now states the placement in its first line, gives both reasons, and
+sits physically before Session 1A rather than after 1C, so it reads in the order
+it happens. The three artifact lines say "taken before the session started," and
+1C's adds that it must precede the ceiling list specifically.
+
+The document changed rather than the packet, because the sentence's own
+justification argued for the packet's placement.
 
 ### 0.9 — Session 1C, a third entry ramp
 
