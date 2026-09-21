@@ -74,9 +74,9 @@ reason and none needed changing.
 
 ### What was actually found, by severity
 
-Seventeen sources have been verified so far, claim by claim, and six defects
+Twenty-one sources have been verified so far, claim by claim, and eight defects
 turned up. That is not an error rate, and it should not be read as one — the
-six are four different kinds of thing, with very different consequences for a
+eight are five different kinds of thing, with very different consequences for a
 reader.
 
 | Severity | Defect | Consequence if uncaught |
@@ -86,12 +86,22 @@ reader.
 | **Overclaim** | Kosmyna crossover reported at n=54 when it rests on n=18 | The kit's central design decision looks better evidenced than it is |
 | **Internal contradiction** | "1–5 mL per query" against ~15 mL two sentences later, with no source for the first | A reader who reads carefully finds the section arguing with itself |
 | **Misattribution** | MIT/OpenAI RCT credited to Phang rather than Fang | A reader following the citation reaches a real but different paper |
-| **Incomplete citation** | Docebo and Li et al. cited in the body, absent from Source notes | A reader cannot check a claim that is, in both cases, accurate |
+| **Unsourced claim** | "Replicated over 25 years" carried by a book citation that supports the effect but not the durability | A claim about a research programme's weight rests on nothing, under a citation that looks like it covers both |
+| **Incomplete citation** | Docebo cited in the body, absent from Source notes | A reader cannot check a claim that is, in fact, accurate |
+| **Incomplete citation** | Li et al. cited in Session 8, absent from Source notes | Same |
 
 The last two rows are bookkeeping. The first two changed what the document tells
-a facilitator to do. A document that has just spent three releases catching
-itself overclaiming should not round all six to the same number, which would be
-its own small overclaim.
+a facilitator to do. A document that has spent four releases catching itself
+overclaiming should not round all eight to the same number, which would be its
+own small overclaim.
+
+**Five of the eight share one shape.** De Freitas, the 519 mL provenance, the
+Phang/Fang swap, the "25 years" durability claim and the unsourced 1–5 mL range
+are all the same failure: a claim attached to the nearest plausible source
+rather than the one that supports it, or — in the last two — to no source at
+all while sitting among neighbours that have them. In every case the citation
+resolved, the author was right, and the paper was about the right topic. Only
+reading the specific sentence caught it.
 
 Also worth recording: **UNESCO verified clean.** All four dimension names and
 all three progression levels match the framework exactly, so the standards
