@@ -10,7 +10,8 @@ in each pass. This file records what changed at the repository level.
 
 | Version | Date | Notes |
 | --- | --- | --- |
-| 0.9.1 | 2026-09-20 | Current. The day-one baseline is taken **before** the ramp, not at its close. The document had asserted both, and Session 1C made the contradiction consequential. |
+| 0.9.2 | 2026-09-20 | Current. The baseline now precedes the ramp-sorting conversation too, not just the ramp. "Before anything else happens" is now literally true. |
+| 0.9.1 | 2026-09-20 | The day-one baseline is taken **before** the ramp, not at its close. The document had asserted both, and Session 1C made the contradiction consequential. |
 | 0.9 | 2026-09-20 | Adds Session 1C, a third entry ramp for the learner who already uses AI a little and has stalled. Published **untested**. Part 2 retitled and its table extended to three audiences. |
 | 0.8 | 2026-09-20 | Session 3 gains a fourth verification habit, the support test, with its evidence type stated on the page; "push on obscure specifics" becomes a named target list; refusal is named as the session's only positive signal; Part 5 gains a matching row. Session 3's clock re-priced to make room. |
 | 0.7.1 | 2026-09-20 | Links nine load-bearing figures that the 0.7 pass left bare because they were second mentions. Names what the Dell'Acqua key actually resolves to. |
@@ -43,6 +44,35 @@ which the README explicitly invites readers to do. The drift is the convention
 working, not a mistake to correct.
 
 ## Curriculum
+
+### 0.9.2 — "before anything else" was still not first
+
+v0.9.1 moved the baseline ahead of the ramp. It did not move it ahead of the
+conversation that decides which ramp — the facilitator asking for the learner's
+honest read on AI and listening for two minutes in order to sort them.
+
+Baseline question four asks how much the learner trusts these tools right now,
+immediately after they have spent two minutes articulating a position on
+exactly that, out loud, to a person. Milder than asking the usage count after
+an inventory, and the same mechanism moved one step upstream rather than
+removed. It lands on the one figure Part 7 compares across ramps.
+
+**Nothing forced that order.** The baseline is ramp-independent: all three ramps
+take the same four questions, so the sort can follow it. It now does.
+
+**The decision this required, made rather than inherited.** The cost is
+facilitation, not data — opening by handing someone a form is colder than
+opening with a conversation, and that matters most for the learner most likely
+to walk. The fix is to say why it is first: *"I'm asking before we talk so that
+what I say doesn't shape your answers."* For a skeptic that is not an apology
+for the paperwork. It is the first demonstration of the method the course
+teaches, delivered before any claim has been made that they would have to take
+on trust.
+
+One question genuinely loses something without a warm-up, and the document now
+says so: the three-unaided-tasks question is abstract cold. It gets a scripted
+sentence of framing, scripted rather than improvised because a facilitator
+filling that silence with examples is how the answer gets led.
 
 ### 0.9.1 — the baseline was in two places at once
 

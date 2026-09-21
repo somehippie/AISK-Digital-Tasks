@@ -3,7 +3,7 @@
 **A curriculum for people who hate AI or think it's too complicated.**
 
 Design document, eight-session lesson plan, tool list, and doom-loop protocol.
-Version 0.9.1 — September 2026.
+Version 0.9.2 — September 2026.
 
 ---
 
@@ -124,7 +124,11 @@ The levels are **per competency, not a course-wide ladder**, and the tags will l
 
 ### The day-one baseline
 
-**Taken before the ramp begins, not after it.** Ten minutes, cold, at the very start of the learner's first session, before anything else happens — before the ledger in 1A, before the task in 1B, before the ceiling list in 1C.
+**Taken before the ramp begins, not after it.** Ten minutes, cold, at the very start of the learner's first session, before anything else happens — before the ledger in 1A, before the task in 1B, before the ceiling list in 1C, **and before the conversation that decides which of the three they are on.**
+
+That last clause is the one facilitators will want to reverse, so it is worth defending. Sorting a learner onto a ramp means asking for their honest read on AI and listening for a couple of minutes. Question four then asks how much they trust these tools right now — immediately after they have spent two minutes articulating a position on exactly that, out loud, to a person. It is milder than asking the usage count after an inventory, but it is the same mechanism, and it lands on the one figure Part 7 compares across ramps.
+
+Nothing forces that order. **The baseline is ramp-independent** — all three ramps take the same four questions — so the sort can follow it without losing anything. Take the baseline first, cold, before any conversation about AI has happened at all. Then ask what brought them and decide which session to run.
 
 The placement is the whole point, and it is easy to get wrong because the four questions read like a closing exercise. Two things break if they move to the end of the ramp.
 
@@ -142,6 +146,10 @@ Part 7's counter-metrics are meaningless without these four, and they cannot be 
 | On a scale you define yourself, how much do you trust these tools right now? | Paired with the session-eight re-ask. Expect the dip, and expect it to look like failure if you have no baseline to compare it against |
 
 Recorded by the learner, kept by the learner, sealed until session eight. Nobody grades it.
+
+**The cost of this ordering is facilitation, not data, and it has a cheap fix.** Opening by handing someone a form is colder than opening with a conversation, and that matters most for the learner most likely to leave. Say why it is first: *"I'm asking before we talk so that what I say doesn't shape your answers."* For a skeptic in particular that is not an apology for the paperwork — it is the first demonstration of the method the rest of the course teaches, delivered before any claim has been made that they would have to take on trust.
+
+One question does lose something without a warm-up. *"Name three tasks you currently do entirely unaided that you'd be uncomfortable doing without help"* is abstract cold, and a learner will often answer it with the first thing they think of. A sentence of framing is enough — *work, home, anything you'd call a skill* — and it should be scripted rather than improvised, because a facilitator filling that silence with examples is how the answer gets led.
 
 ### Session 1A — Standing (refusers)
 
